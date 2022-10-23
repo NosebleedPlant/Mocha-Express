@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4077009615	maoJamar			\Default Work Unit\maoJamar	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	539253404	mao	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\Mocha-Express_Project_34B9D85E.wem		\Actor-Mixer Hierarchy\Default Work Unit\mao_1\Mocha-Express_Project\mao		730976
+

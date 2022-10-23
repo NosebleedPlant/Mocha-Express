@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5d72cf05bdb0714bb17812ec6e312d8, type: 3}
+  m_Name: 594A6071-2B5D-4F26-8A9C-754F6599BFFA
+  m_EditorClassIdentifier: 
+  objectName: maoJamar
+  id: 4077009615
+  guid: 594A6071-2B5D-4F26-8A9C-754F6599BFFA

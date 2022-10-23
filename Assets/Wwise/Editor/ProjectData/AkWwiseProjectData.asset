@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 5a84d76cb194004e9a7dfb46e3499285
     GuidInternal: 
-    m_lastTime: -8585351250427937389
-    List: []
+    m_lastTime: -8585351220974090685
+    List:
+    - name: game
+      guid: fc04fd6769f25b4bbc3a2783e2b6ea07
+      id: 702482391
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5a84d76cb194004e9a7dfb46e3499285
+      - ElementName: game
+        ObjectType: 7
+        guid: fc04fd6769f25b4bbc3a2783e2b6ea07
+      Path: SoundBanks\Default Work Unit\game
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a78fe98a32e35a4395b29e464eb8cccd
     GuidInternal: 
-    m_lastTime: -8585351250427997287
-    List: []
+    m_lastTime: -8585351221887113145
+    List:
+    - name: maoJamar
+      guid: 71604a595d2b264f8a9c754f6599bffa
+      id: 4077009615
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a78fe98a32e35a4395b29e464eb8cccd
+      - ElementName: maoJamar
+        ObjectType: 3
+        guid: 71604a595d2b264f8a9c754f6599bffa
+      Path: Events\Default Work Unit\maoJamar
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +170,7 @@ MonoBehaviour:
     m_lastTime: -8585351250427917446
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
