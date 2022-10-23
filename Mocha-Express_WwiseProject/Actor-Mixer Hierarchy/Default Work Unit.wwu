@@ -3,31 +3,22 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{6DECB4DD-30DC-4C50-AA49-2355B6E6C360}" PersistMode="Standalone">
 			<ChildrenList>
-				<ActorMixer Name="mao_1" ID="{3FCD44A9-FB4E-4442-9736-55687C1C8A57}" ShortID="258601961">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5DC116E3-6C1D-47B8-AB92-E6F1F5F54045}"/>
-						</Reference>
-					</ReferenceList>
+				<Folder Name="Main" ID="{440A6315-B63B-483A-9835-8A8431134FDF}" ShortID="257458498">
 					<ChildrenList>
-						<Folder Name="Mocha-Express_Project" ID="{2AAE8E60-FB3C-448A-AFA9-3AAA80C276B7}" ShortID="115701761">
+						<Folder Name="Interface" ID="{3AD52FE9-4B89-4818-B2D8-D2FEF53BFE17}" ShortID="928049702">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Folder>
+						<Folder Name="World" ID="{5BD1E61A-6DF4-4197-A8CE-EFAFAAB92D08}" ShortID="969609984">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
-								<Sound Name="mao" ID="{C0567F69-D0CA-4C71-A828-6FD200BD3902}" ShortID="399350950">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
-										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
-										<Property Name="LoopCount" Type="int32" Value="3"/>
-									</PropertyList>
+								<ActorMixer Name="Cats" ID="{8BE8F449-F7F0-470A-B059-3301B5DFA91D}" ShortID="321933129">
 									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="attenuation1" ID="{753CF30A-46B5-4726-AEB1-5F59B2770D99}" WorkUnitID="{5C6E4854-239E-4B5B-871F-1AA4B0E8CCAB}"/>
-										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
 										</Reference>
@@ -36,31 +27,322 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Mocha-Express_Project" ID="{0F338CA2-8EAA-4239-A4DF-057826EE268F}">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.326223337515682"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.554579673776662"/>
-												<Property Name="LoopBegin" Type="Real64" Value="21.465495608532"/>
-												<Property Name="LoopEnd" Type="Real64" Value="25.0213299874529"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="21.465495608532"/>
-												<Property Name="TrimEnd" Type="Real64" Value="25.6085319949812"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Mocha-Express_Project.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="539253404"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<ActorMixer Name="ChonkerSized" ID="{05C7B46F-F756-4077-A3D8-8FB86027E825}" ShortID="210827258">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5DC116E3-6C1D-47B8-AB92-E6F1F5F54045}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SwitchContainer Name="meowsChonker" ID="{AD3EA459-7F85-4105-BF39-FAE428CF2696}" ShortID="1004487073">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5DC116E3-6C1D-47B8-AB92-E6F1F5F54045}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="deepMeow" ID="{E3D444B8-7AC3-4480-8F6E-7B61626218E0}" ShortID="503567334">
+															<PropertyList>
+																<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5DC116E3-6C1D-47B8-AB92-E6F1F5F54045}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="deepMeowJamar1" ID="{A41B4761-7E1F-4344-BCC5-697C1D61D058}" ShortID="835825470">
+																	<PropertyList>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{6F503177-8B1D-40EE-BAFA-08C1A38B67C9}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="101"/>
+																							<Property Name="Min" Type="Real64" Value="-126"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5DC116E3-6C1D-47B8-AB92-E6F1F5F54045}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="deepMeowJamar1" ID="{2D0D9009-EA2A-4E58-B49B-66415CC338C0}">
+																			<Language>SFX</Language>
+																			<AudioFile>deepMeowJamar1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="512507194"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="deepMeowJamar1" ID="{2D0D9009-EA2A-4E58-B49B-66415CC338C0}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="deepMeowJamar2" ID="{0945CCDB-396F-48A1-B3D7-A6C68BFF7D0B}" ShortID="610697468">
+																	<PropertyList>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{8C1BA22F-56C3-4D98-856A-F6C9DDD2AFAE}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="51"/>
+																							<Property Name="Min" Type="Real64" Value="-68.2"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5DC116E3-6C1D-47B8-AB92-E6F1F5F54045}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="deepMeowJamar2" ID="{1EE21BD7-A3C7-4F66-942E-6312D0C7537D}">
+																			<Language>SFX</Language>
+																			<AudioFile>deepMeowJamar2.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="311368447"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="deepMeowJamar2" ID="{1EE21BD7-A3C7-4F66-942E-6312D0C7537D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+													<GroupingInfo>
+														<GroupingBehaviorList>
+															<GroupingBehavior>
+																<ItemRef Name="deepMeow" ID="{E3D444B8-7AC3-4480-8F6E-7B61626218E0}"/>
+															</GroupingBehavior>
+														</GroupingBehaviorList>
+													</GroupingInfo>
+												</SwitchContainer>
+											</ChildrenList>
+										</ActorMixer>
+										<ActorMixer Name="NormalSized" ID="{948588B4-EAC4-4284-9005-F8FA11C87A56}" ShortID="490731380">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5DC116E3-6C1D-47B8-AB92-E6F1F5F54045}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SwitchContainer Name="purrs" ID="{57311655-C3A0-417E-BBC0-9CAF365A21CA}" ShortID="501911949">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5DC116E3-6C1D-47B8-AB92-E6F1F5F54045}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="purrLoopJamar" ID="{80356594-BABB-42A8-BBCF-EB4F6DA3EAEB}" ShortID="117478509">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5DC116E3-6C1D-47B8-AB92-E6F1F5F54045}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="purrLoopJamar" ID="{2EA14D9E-B14E-43C5-BE2D-940BEFBD1A7D}">
+																	<Language>SFX</Language>
+																	<AudioFile>purrLoopJamar.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="869569966"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="purrLoopJamar" ID="{2EA14D9E-B14E-43C5-BE2D-940BEFBD1A7D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<GroupingInfo>
+														<GroupingBehaviorList>
+															<GroupingBehavior>
+																<ItemRef Name="purrLoopJamar" ID="{80356594-BABB-42A8-BBCF-EB4F6DA3EAEB}"/>
+															</GroupingBehavior>
+														</GroupingBehaviorList>
+													</GroupingInfo>
+												</SwitchContainer>
+												<SwitchContainer Name="meowsNormal" ID="{4B1D7561-6E64-447D-A2AB-62EE2ADCB362}" ShortID="91913947">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5DC116E3-6C1D-47B8-AB92-E6F1F5F54045}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="maos" ID="{87EE338D-1ACB-4E39-9239-85942BC78009}" ShortID="398222145">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5DC116E3-6C1D-47B8-AB92-E6F1F5F54045}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="maoJamar2" ID="{8AFC04F9-FFBA-44E0-92E1-466EA5847699}" ShortID="948413763">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5DC116E3-6C1D-47B8-AB92-E6F1F5F54045}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="maoJamar2" ID="{EE9EAE3A-D280-48A2-8135-540C7F1BDE0F}">
+																			<Language>SFX</Language>
+																			<AudioFile>maoJamar2.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="662576370"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="maoJamar2" ID="{EE9EAE3A-D280-48A2-8135-540C7F1BDE0F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="maoJamar1" ID="{0FBB0267-9E5F-4A5A-B53E-786D12E49B97}" ShortID="51192775">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5DC116E3-6C1D-47B8-AB92-E6F1F5F54045}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="maoJamar1" ID="{ECF827BB-8862-4CEF-853D-C8A8EB6438E3}">
+																			<Language>SFX</Language>
+																			<AudioFile>maoJamar1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="975949885"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="maoJamar1" ID="{ECF827BB-8862-4CEF-853D-C8A8EB6438E3}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="screech" ID="{E316D6BD-B7A6-4607-8E8A-2F14BD1F7E5B}" ShortID="437016319">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5DC116E3-6C1D-47B8-AB92-E6F1F5F54045}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="screechJamar2" ID="{46F1B936-0671-4BD2-906E-CAF90A17BCCB}" ShortID="42914123">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5DC116E3-6C1D-47B8-AB92-E6F1F5F54045}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="screechJamar2" ID="{DBDB3F36-01C4-4707-A542-31858E21F0A8}">
+																			<Language>SFX</Language>
+																			<AudioFile>screechJamar2.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="571519217"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="screechJamar2" ID="{DBDB3F36-01C4-4707-A542-31858E21F0A8}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="screechJamar1" ID="{84093145-2E75-4A44-8968-69C0FEE49B9C}" ShortID="937198083">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5A2781-D7CA-4938-A110-F8F5FF36C911}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5DC116E3-6C1D-47B8-AB92-E6F1F5F54045}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="screechJamar1" ID="{48AEA947-FAC3-46D8-BF44-C7DBF13E928D}">
+																			<Language>SFX</Language>
+																			<AudioFile>screechJamar1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="789185753"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="screechJamar1" ID="{48AEA947-FAC3-46D8-BF44-C7DBF13E928D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+													<GroupingInfo>
+														<GroupingBehaviorList>
+															<GroupingBehavior>
+																<ItemRef Name="maos" ID="{87EE338D-1ACB-4E39-9239-85942BC78009}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="screech" ID="{E316D6BD-B7A6-4607-8E8A-2F14BD1F7E5B}"/>
+															</GroupingBehavior>
+														</GroupingBehaviorList>
+													</GroupingInfo>
+												</SwitchContainer>
+											</ChildrenList>
+										</ActorMixer>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Mocha-Express_Project" ID="{0F338CA2-8EAA-4239-A4DF-057826EE268F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</ActorMixer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
-				</ActorMixer>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
