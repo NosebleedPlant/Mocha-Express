@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="16" SoundBankVersion="144">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Android</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{834ABD20-EA34-EC1F-4D72-EE970909371E}">
+			<ShortName>game</ShortName>
+			<Path>game.bnk</Path>
+			<Media>
+				<File Id="539253404" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mocha-Express_Project.wav</ShortName>
+					<CachePath>SFX/Mocha-Express_Project_4C0D9205.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4077009615" Name="maoJamar" DurationType="OneShot" DurationMin="11.254705" DurationMax="11.254705">
+					<MediaRefs>
+						<MediaRef Id="539253404"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6387F242-7B17-393A-1365-5D7ACB9FB4CD}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D8711FDC-166E-FAD4-0F1D-931274D9F628}</FileHash>
+</SoundBanksInfo>
