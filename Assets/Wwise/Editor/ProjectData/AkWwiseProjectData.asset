@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 7471b55ddd420c47bb5f521c9ffa2130
     GuidInternal: 
-    m_lastTime: -8585350343273543521
+    m_lastTime: -8585350336544246123
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: eee5af196b045441955801f646d5b008
     GuidInternal: 
-    m_lastTime: -8585350343273863502
+    m_lastTime: -8585350336544391168
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: ccef9e29bc609242a30cc1984562c6c6
     GuidInternal: 
-    m_lastTime: -8585350343274403512
-    List: []
+    m_lastTime: -8585350325784229502
+    List:
+    - name: Main
+      guid: b4281d4ed1a3d64ab915b8b27631991f
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ccef9e29bc609242a30cc1984562c6c6
+      - ElementName: Main
+        ObjectType: 7
+        guid: b4281d4ed1a3d64ab915b8b27631991f
+      Path: SoundBanks\Default Work Unit\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 61a7c9568e6180479510899e105c52ae
     GuidInternal: 
-    m_lastTime: -8585350343275043512
-    List: []
+    m_lastTime: -8585350325784149526
+    List:
+    - name: Play_Bolt
+      guid: 05d777cc8fe03743b168aff35cf226f7
+      id: 1340741931
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 61a7c9568e6180479510899e105c52ae
+      - ElementName: Play_Bolt
+        ObjectType: 3
+        guid: 05d777cc8fe03743b168aff35cf226f7
+      Path: Events\Default Work Unit\Play_Bolt
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -94,7 +125,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: b41b6e59645d5147966d11a6e5a57e86
     GuidInternal: 
-    m_lastTime: -8585350343274893516
+    m_lastTime: -8585350336544401177
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -108,7 +139,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: ef34a88aff8d914ab9ddc8231cdae592
     GuidInternal: 
-    m_lastTime: -8585350343273343508
+    m_lastTime: -8585350336544256131
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -122,7 +153,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: c963af901a600e479305e12b796fc6a3
     GuidInternal: 
-    m_lastTime: -8585350343274963501
+    m_lastTime: -8585350336544256131
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -136,10 +167,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 6d1235c092e49740a77264966087072b
     GuidInternal: 
-    m_lastTime: -8585350343274253515
+    m_lastTime: -8585350336544246123
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 010000000500000006000000090000000a0000000b000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

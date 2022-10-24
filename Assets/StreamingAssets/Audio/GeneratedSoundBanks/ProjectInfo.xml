@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Mocha-Express_WwiseProject" GUID="{50A28F68-894C-4542-8EE9-1DCCAAB6A4D2}" Generator="2022.1.0.7985"/>
+	<CacheRoot>../../../../Mocha-Express_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Android" GUID="{43FDF710-2F01-4751-A8C6-9C75218B48BD}" BasePlatform="Android" BasePlatformGUID="{A2D401DE-B8B6-4FEB-8142-137C34D507CA}" Path="../../../../Mocha-Express_WwiseProject/GeneratedSoundBanks/Android"/>
+		<Platform Name="Mac" GUID="{CDFCA725-B1C7-4F92-A4AA-F2CF4136775C}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../Mocha-Express_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{29FCF72D-27DA-4E85-A18C-2DBC56B6C38E}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../Mocha-Express_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{0E58C777-CBB0-4216-BD3C-6BA6767F3B58}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{1A904D4D-0B6B-B020-B402-2C8D275D7941}</FileHash>
+</ProjectInfo>

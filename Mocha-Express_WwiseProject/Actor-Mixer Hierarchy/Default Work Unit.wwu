@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{136370ED-D333-41B8-93A9-5520B6302CC4}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{136370ED-D333-41B8-93A9-5520B6302CC4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{136370ED-D333-41B8-93A9-5520B6302CC4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Bolt" ID="{84E2E62F-1583-4A99-AEDE-4E7B04B11292}" ShortID="282441617">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BADE4A1-707F-4B06-83D0-E39C535002DA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Bolt" ID="{30642C10-2A56-4E8C-9EC5-7DD4566A2C63}">
+							<Language>SFX</Language>
+							<AudioFile>Bolt.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="732194522"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Bolt" ID="{30642C10-2A56-4E8C-9EC5-7DD4566A2C63}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
