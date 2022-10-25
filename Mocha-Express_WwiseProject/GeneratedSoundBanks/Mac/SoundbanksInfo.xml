@@ -9,23 +9,6 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{E73DE60E-5105-C21A-6E31-EDE085B3848F}">
-			<ShortName>game</ShortName>
-			<Path>game.bnk</Path>
-			<Media>
-				<File Id="539253404" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Mocha-Express_Project.wav</ShortName>
-					<CachePath>SFX/Mocha-Express_Project_34B9D85E.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="4077009615" Name="maoJamar" DurationType="OneShot" DurationMin="11.254705" DurationMax="11.254705">
-					<MediaRefs>
-						<MediaRef Id="539253404"/>
-					</MediaRefs>
-				</Event>
-			</Events>
-		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{906F145D-8EC4-98DD-8896-A13B6757E8AB}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -39,6 +22,23 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{578F4F8A-E72A-A66E-24D6-F997E61AB51C}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="732194522" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bolt.wav</ShortName>
+					<CachePath>SFX/Bolt_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1340741931" Name="Play_Bolt" DurationType="OneShot" DurationMin="1.3840363" DurationMax="1.3840363">
+					<MediaRefs>
+						<MediaRef Id="732194522"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{26633F72-C735-F721-C016-6BD95D23F0E1}</FileHash>
+	<FileHash>{2F7776BF-128C-60D7-0FDD-2096CB6EB26F}</FileHash>
 </SoundBanksInfo>
