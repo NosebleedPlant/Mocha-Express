@@ -6,7 +6,7 @@ public class Bhvr_Cats : MonoBehaviour
 {
     #region Fields
 
-    [SerializeField, Tooltip("Health points of this cat")]
+    [SerializeField, Tooltip("Health points of this Cat")]
     private int health = 0;
     [SerializeField, Tooltip("Damage that the cat deals")]
     private int damage = 0;
@@ -14,9 +14,10 @@ public class Bhvr_Cats : MonoBehaviour
     private float speed = 20;
     [SerializeField, Tooltip("Deviation from shortest path to target")]
     private float deviation = 0;
+    [field:SerializeField, Tooltip("Target location for Cat")]
+    private Transform _targetTransform;
     
     private Rigidbody2D _rBdy;
-    private Transform _targetTransform;
     private Vector3 _direction;
 
     #endregion
@@ -34,7 +35,6 @@ public class Bhvr_Cats : MonoBehaviour
 
     #endregion
 
-
     #region LifeCycle
 
     private void Awake() 
@@ -42,10 +42,18 @@ public class Bhvr_Cats : MonoBehaviour
         _rBdy = GetComponent<Rigidbody2D>();
     }
 
+    private void OnEnable() => Mgr_Cats.CatsInLevel.Add(this);
+    private void OnDisable() => Mgr_Cats.CatsInLevel.Remove(this);
+
     private void FixedUpdate()
     {
         Target();
         _rBdy.velocity = _direction*speed*Time.deltaTime;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        //delete self
     }
 
     #endregion
