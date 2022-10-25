@@ -152,7 +152,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &55988020
 GameObject:
@@ -253,7 +253,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1034568347
 PrefabInstance:
@@ -533,6 +533,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3333673804049521676, guid: c68e4b4bd31f03249b6cf9185b5619e4, type: 3}
       propertyPath: m_Name
+      value: Tower
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333673804049521676, guid: c68e4b4bd31f03249b6cf9185b5619e4, type: 3}
+      propertyPath: m_TagString
       value: Tower
       objectReference: {fileID: 0}
     - target: {fileID: 6270351865583058759, guid: c68e4b4bd31f03249b6cf9185b5619e4, type: 3}

@@ -12,7 +12,7 @@ public class Bhvr_Tower : MonoBehaviour
     {
         if (inRange.Count>0)
         {
-            Debug.DrawLine(transform.position,inRange[0].position,Color.red);
+            // Debug.DrawLine(transform.position,inRange[0].position,Color.red);
             // reticle.position = new Vector3(inRange[0].position.x,1.1f,inRange[0].position.z);
         }
         else
@@ -29,6 +29,7 @@ public class Bhvr_Tower : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         inRange.Remove(other.transform);
+        Debug.Log("removed");
     }
 
     private void OnEnable() => StartCoroutine(SpawnRoutine());
@@ -36,6 +37,7 @@ public class Bhvr_Tower : MonoBehaviour
     {
         while(enabled)
         {
+            Debug.Log("Count"+inRange.Count);
             if(inRange.Count>0)
             {
                 //check to see if the transform is in there?
