@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1340741931	Play_Bolt			\Default Work Unit\Play_Bolt	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	732194522	Bolt	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\Bolt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bolt		244240
+
