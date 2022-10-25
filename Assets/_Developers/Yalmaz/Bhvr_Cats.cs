@@ -55,7 +55,9 @@ public class Bhvr_Cats : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        //delete self
+        if(other.tag == "Tower"){
+            GameObject.Destroy(transform.gameObject);
+        }
     }
 
     #endregion
