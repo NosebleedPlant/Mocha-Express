@@ -38,6 +38,7 @@ public class Bhvr_Tower : MonoBehaviour
         {
             if(inRange.Count>0)
             {
+                //check to see if the transform is in there?
                 var dir = inRange[0].position - transform.position; //a vector pointing from pointA to pointB
                 var rot = Vector3.Angle(transform.up,dir); //calc a rotation that
                 Debug.Log(rot);

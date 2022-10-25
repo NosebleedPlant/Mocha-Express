@@ -43,7 +43,9 @@ public class Bhvr_Cats : MonoBehaviour
     }
 
     private void OnEnable() => Mgr_Cats.CatsInLevel.Add(this);
-    private void OnDisable() => Mgr_Cats.CatsInLevel.Remove(this);
+    private void OnDisable(){
+        Mgr_Cats.CatsInLevel.Remove(this);
+        }
 
     private void FixedUpdate()
     {
