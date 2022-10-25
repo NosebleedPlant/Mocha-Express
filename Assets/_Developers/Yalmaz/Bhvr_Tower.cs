@@ -24,13 +24,11 @@ public class Bhvr_Tower : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         inRange.Add(other.transform);
-        Debug.Log("added" + inRange.Count);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         inRange.Remove(other.transform);
-        Debug.Log("removed" + inRange.Count);
     }
 
     private void OnEnable() => StartCoroutine(SpawnRoutine());
@@ -38,7 +36,6 @@ public class Bhvr_Tower : MonoBehaviour
     {
         while(enabled)
         {
-            Debug.Log("Count"+inRange.Count);
             if(inRange.Count>0)
             {
                 //check to see if the transform is in there?
