@@ -24,12 +24,13 @@ public class Bhvr_Tower : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         inRange.Add(other.transform);
+        Debug.Log("added" + inRange.Count);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         inRange.Remove(other.transform);
-        Debug.Log("removed");
+        Debug.Log("removed" + inRange.Count);
     }
 
     private void OnEnable() => StartCoroutine(SpawnRoutine());
@@ -43,10 +44,14 @@ public class Bhvr_Tower : MonoBehaviour
                 //check to see if the transform is in there?
                 var dir = inRange[0].position - transform.position; //a vector pointing from pointA to pointB
                 var rot = Vector3.Angle(transform.up,dir); //calc a rotation that
-                Debug.Log(rot);
                 GameObject spawnedfile = Instantiate(bullet,transform.position,Quaternion.AngleAxis(rot,Vector3.back));
             }
             yield return new WaitForSeconds(0.5f);
         }
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(transform.position,gameObject.GetComponent<CircleCollider2D>().radius);
     }
 }

@@ -43,9 +43,7 @@ public class Bhvr_Cats : MonoBehaviour
     }
 
     private void OnEnable() => Mgr_Cats.CatsInLevel.Add(this);
-    private void OnDisable(){
-        Mgr_Cats.CatsInLevel.Remove(this);
-        }
+    private void OnDisable() => Mgr_Cats.CatsInLevel.Remove(this);
 
     private void FixedUpdate()
     {
@@ -55,7 +53,9 @@ public class Bhvr_Cats : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "Tower"){
+        if(other.tag == "Bullet"){
+            Debug.Log("hello");
+            GameObject.Destroy(other.gameObject);
             GameObject.Destroy(transform.gameObject);
         }
     }

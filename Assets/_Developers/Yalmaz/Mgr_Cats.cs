@@ -5,7 +5,16 @@ using UnityEditor;
 
 public class Mgr_Cats : MonoBehaviour
 {
+    public Transform target;
     public static List<Bhvr_Cats> CatsInLevel = new List<Bhvr_Cats>();
+
+    void Awake()
+    {
+        foreach(Bhvr_Cats cat in CatsInLevel)
+        {
+            cat.targetTransform = target;
+        }
+    }
 
     #if UNITY_EDITOR
     void OnDrawGizmos()
