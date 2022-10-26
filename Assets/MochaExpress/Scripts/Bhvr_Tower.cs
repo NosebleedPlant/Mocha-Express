@@ -11,7 +11,7 @@ public class Bhvr_Tower : MonoBehaviour
     /// <summary>  
     /// class contains ammo types for the towers
     /// </summary>
-    private enum Ammo
+    public enum Ammo
     {
         Tuna,       //Traditional Earth Tuna with Special Sauce
         Harvest,    //New Venusian Harvest Plate
@@ -19,14 +19,25 @@ public class Bhvr_Tower : MonoBehaviour
     }
 
     #region //////Fields//////
-        [SerializeField, Tooltip("enum of ammo types")]
-        private Ammo towerAmmo = new Ammo();
+        [field: SerializeField, Tooltip("enum of ammo types")]
+        private Ammo _towerAmmo = new Ammo();
         [SerializeField, Tooltip("list of bullet prefab")]
         private List<GameObject> bullet = new List<GameObject>();
         [SerializeField, Tooltip("Reticle asset to show where tower is currently aiming")]
         private Transform reticle;
         
         private List<Transform> _inRange = new List<Transform>();
+    #endregion
+
+     #region //////Properties//////
+        public Ammo towerAmmo 
+        {
+            get => _towerAmmo;
+            set
+            {
+                _towerAmmo = value;
+            }
+        }
     #endregion
 
     #region //////LifeCycle//////
