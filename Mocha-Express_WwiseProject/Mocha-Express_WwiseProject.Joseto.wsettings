@@ -4,7 +4,12 @@
 		<UserProjectSettings Name="" ID="{AE9FEF05-AA84-4F5E-9627-98A3686A1246}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="N:\Gamejam\SFX\"/>
+				<Property Name="Event Action List\{00E242D8-4EC2-4DED-A025-B79AC38C2DE3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4C8EED8C-171E-4692-AD24-F19BAA2E8AB1}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C522646B-5D95-4EEC-9F64-43A558AF5BF7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CC77D705-E08F-4337-B168-AFF35CF226F7}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DEEE6127-11E1-4B73-8CBF-3B2D697CADC1}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F8C89392-C9D8-42A1-A158-26B1AB5E7FFE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="EventView\FilterMode2" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">

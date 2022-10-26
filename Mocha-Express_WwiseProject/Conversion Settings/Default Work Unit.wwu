@@ -43,7 +43,7 @@
 					</PropertyList>
 					<ConversionPluginInfoList>
 						<ConversionPluginInfo Platform="Android">
-							<ConversionPlugin Name="" ID="{371B19C6-83CB-4BA2-A45E-5D3C7A982A45}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+							<ConversionPlugin Name="" ID="{0742E7BB-5B85-41AD-906C-90FFC8D5DD1F}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows">
 							<ConversionPlugin Name="" ID="{1DAFD6AF-9A01-4DA5-B0C1-9AE2B983FFD6}" PluginName="PCM" CompanyID="0" PluginID="1"/>
