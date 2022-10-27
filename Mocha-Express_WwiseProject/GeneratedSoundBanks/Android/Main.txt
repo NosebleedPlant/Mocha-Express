@@ -1,18 +1,17 @@
 Event	ID	Name			Wwise Object Path	Notes
-	40516875	Play_menuSelect			\Default Work Unit\Play_menuSelect	
-	1305045635	SFX_unmute			\Default Work Unit\SFX_unmute	
-	1340741931	Play_Bolt			\Default Work Unit\Play_Bolt	
-	1507987364	Play_itemPlace			\Default Work Unit\Play_itemPlace	
-	1696404602	Music_mute			\Default Work Unit\Music_mute	
-	2132259803	Music_unmute			\Default Work Unit\Music_unmute	
-	2576276897	Play_menuClick			\Default Work Unit\Play_menuClick	
-	2641650631	Play_Shoot			\Default Work Unit\Play_Shoot	
-	2738186904	Play_meowDeep			\Default Work Unit\Play_meowDeep	
-	2835551186	SFX_Mute			\Default Work Unit\SFX_Mute	
-	3162458979	Play_meowNormal			\Default Work Unit\Play_meowNormal	
-	3707288775	Play_foodReady			\Default Work Unit\Play_foodReady	
-	4057174442	Play_Cooking			\Default Work Unit\Play_Cooking	
-	4241593335	Play_itemPickup			\Default Work Unit\Play_itemPickup	
+	153626945	musicMute			\Default Work Unit\musicMute	
+	921832693	playMeowDeep			\Default Work Unit\playMeowDeep	
+	1024214430	playMenuSelect			\Default Work Unit\playMenuSelect	
+	1262020357	playCooking			\Default Work Unit\playCooking	
+	1264305561	sfxMute			\Default Work Unit\sfxMute	
+	1489638472	playShoot			\Default Work Unit\playShoot	
+	2098179344	musicUnmute			\Default Work Unit\musicUnmute	
+	3249829222	playMeowNormal			\Default Work Unit\playMeowNormal	
+	3266981704	playFoodReady			\Default Work Unit\playFoodReady	
+	3776118347	playItemPlace			\Default Work Unit\playItemPlace	
+	3838137654	playMenuClick			\Default Work Unit\playMenuClick	
+	4016420606	playItemPickup			\Default Work Unit\playItemPickup	
+	4069662840	sfxUnmute			\Default Work Unit\sfxUnmute	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1081040201	PlateAmmo			\Default Work Unit\PlateAmmo	
@@ -38,7 +37,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	529155353	shootPlanetX	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\shootPlanetX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Towers\Shoot\shootPlanetX		3609
 	552031213	itemPickup	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\itemPickup_3DE78051.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\itemPickup		1252
 	573760164	menuClick	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\menuClick_81E8916E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Menu\menuClick		794
-	732194522	Bolt	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\Bolt_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bolt		17618
 	838599348	foodReady	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\foodReady_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\foodReady		20113
 	855061033	shootVenusianJane	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\shootVenusianJane_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Towers\Shoot\shootVenusianJane		22776
 	888557458	maoJamar2	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\maoJamar2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowNormal\maoJamar2		8381

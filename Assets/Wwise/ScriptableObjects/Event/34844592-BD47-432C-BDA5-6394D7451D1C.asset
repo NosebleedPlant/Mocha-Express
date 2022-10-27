@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 261370e53d2bc20449d19f73163f6f9f, type: 3}
   m_Name: 34844592-BD47-432C-BDA5-6394D7451D1C
   m_EditorClassIdentifier: 
-  objectName: Play_itemPickup
-  id: 4241593335
+  objectName: playItemPickup
+  id: 4016420606
   guid: 34844592-BD47-432C-BDA5-6394D7451D1C

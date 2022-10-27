@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: eee5af196b045441955801f646d5b008
     GuidInternal: 
-    m_lastTime: -8585347099357420151
+    m_lastTime: -8585346983516660004
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: ccef9e29bc609242a30cc1984562c6c6
     GuidInternal: 
-    m_lastTime: -8585347074871992864
+    m_lastTime: -8585346972373293003
     List:
     - name: Main
       guid: b4281d4ed1a3d64ab915b8b27631991f
@@ -128,11 +128,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 61a7c9568e6180479510899e105c52ae
     GuidInternal: 
-    m_lastTime: -8585347074871972868
+    m_lastTime: -8585346970632751660
     List:
-    - name: Music_mute
-      guid: 4d2830951052bf4d84a87cea290abb1b
-      id: 1696404602
+    - name: mapLoaded
+      guid: 0bcef91adaeafb4da77b966fab7bb6cf
+      id: 3246529682
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -140,16 +140,33 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 61a7c9568e6180479510899e105c52ae
-      - ElementName: Music_mute
+      - ElementName: mapLoaded
+        ObjectType: 3
+        guid: 0bcef91adaeafb4da77b966fab7bb6cf
+      Path: Events\Default Work Unit\mapLoaded
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: musicMute
+      guid: 4d2830951052bf4d84a87cea290abb1b
+      id: 153626945
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 61a7c9568e6180479510899e105c52ae
+      - ElementName: musicMute
         ObjectType: 3
         guid: 4d2830951052bf4d84a87cea290abb1b
-      Path: Events\Default Work Unit\Music_mute
+      Path: Events\Default Work Unit\musicMute
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Music_unmute
+    - name: musicUnmute
       guid: d1ecf82a2f7ec941aef95dc215aaf5e4
-      id: 2132259803
+      id: 2098179344
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -157,33 +174,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 61a7c9568e6180479510899e105c52ae
-      - ElementName: Music_unmute
+      - ElementName: musicUnmute
         ObjectType: 3
         guid: d1ecf82a2f7ec941aef95dc215aaf5e4
-      Path: Events\Default Work Unit\Music_unmute
+      Path: Events\Default Work Unit\musicUnmute
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Bolt
-      guid: 05d777cc8fe03743b168aff35cf226f7
-      id: 1340741931
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 61a7c9568e6180479510899e105c52ae
-      - ElementName: Play_Bolt
-        ObjectType: 3
-        guid: 05d777cc8fe03743b168aff35cf226f7
-      Path: Events\Default Work Unit\Play_Bolt
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_Cooking
+    - name: playCooking
       guid: 2761eedee111734b8cbf3b2d697cadc1
-      id: 4057174442
+      id: 1262020357
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -191,16 +191,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 61a7c9568e6180479510899e105c52ae
-      - ElementName: Play_Cooking
+      - ElementName: playCooking
         ObjectType: 3
         guid: 2761eedee111734b8cbf3b2d697cadc1
-      Path: Events\Default Work Unit\Play_Cooking
+      Path: Events\Default Work Unit\playCooking
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_foodReady
+    - name: playFoodReady
       guid: 6b6422c5955dec4e9f6443a558af5bf7
-      id: 3707288775
+      id: 3266981704
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -208,16 +208,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 61a7c9568e6180479510899e105c52ae
-      - ElementName: Play_foodReady
+      - ElementName: playFoodReady
         ObjectType: 3
         guid: 6b6422c5955dec4e9f6443a558af5bf7
-      Path: Events\Default Work Unit\Play_foodReady
+      Path: Events\Default Work Unit\playFoodReady
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_itemPickup
+    - name: playItemPickup
       guid: 9245843447bd2c43bda56394d7451d1c
-      id: 4241593335
+      id: 4016420606
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -225,16 +225,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 61a7c9568e6180479510899e105c52ae
-      - ElementName: Play_itemPickup
+      - ElementName: playItemPickup
         ObjectType: 3
         guid: 9245843447bd2c43bda56394d7451d1c
-      Path: Events\Default Work Unit\Play_itemPickup
+      Path: Events\Default Work Unit\playItemPickup
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_itemPlace
+    - name: playItemPlace
       guid: 7d9d4f85d85e134d96e3d377579f3176
-      id: 1507987364
+      id: 3776118347
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -242,16 +242,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 61a7c9568e6180479510899e105c52ae
-      - ElementName: Play_itemPlace
+      - ElementName: playItemPlace
         ObjectType: 3
         guid: 7d9d4f85d85e134d96e3d377579f3176
-      Path: Events\Default Work Unit\Play_itemPlace
+      Path: Events\Default Work Unit\playItemPlace
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_menuClick
+    - name: playMenuClick
       guid: ed5a51a117d2454b8b0950eaa2aeedb6
-      id: 2576276897
+      id: 3838137654
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -259,16 +259,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 61a7c9568e6180479510899e105c52ae
-      - ElementName: Play_menuClick
+      - ElementName: playMenuClick
         ObjectType: 3
         guid: ed5a51a117d2454b8b0950eaa2aeedb6
-      Path: Events\Default Work Unit\Play_menuClick
+      Path: Events\Default Work Unit\playMenuClick
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_menuSelect
+    - name: playMenuSelect
       guid: e8305940c598e5489e6380becfae95de
-      id: 40516875
+      id: 1024214430
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -276,16 +276,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 61a7c9568e6180479510899e105c52ae
-      - ElementName: Play_menuSelect
+      - ElementName: playMenuSelect
         ObjectType: 3
         guid: e8305940c598e5489e6380becfae95de
-      Path: Events\Default Work Unit\Play_menuSelect
+      Path: Events\Default Work Unit\playMenuSelect
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_meowDeep
+    - name: playMeowDeep
       guid: bf47c9fd2581f9498ba1fe0e6e64ae2a
-      id: 2738186904
+      id: 921832693
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -293,16 +293,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 61a7c9568e6180479510899e105c52ae
-      - ElementName: Play_meowDeep
+      - ElementName: playMeowDeep
         ObjectType: 3
         guid: bf47c9fd2581f9498ba1fe0e6e64ae2a
-      Path: Events\Default Work Unit\Play_meowDeep
+      Path: Events\Default Work Unit\playMeowDeep
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_meowNormal
+    - name: playMeowNormal
       guid: a802e1a502c35e42aa9b58871431ed0a
-      id: 3162458979
+      id: 3249829222
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -310,16 +310,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 61a7c9568e6180479510899e105c52ae
-      - ElementName: Play_meowNormal
+      - ElementName: playMeowNormal
         ObjectType: 3
         guid: a802e1a502c35e42aa9b58871431ed0a
-      Path: Events\Default Work Unit\Play_meowNormal
+      Path: Events\Default Work Unit\playMeowNormal
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Shoot
-      guid: 8ced8e4c1e179246ad24f19baa2e8ab1
-      id: 2641650631
+    - name: playPurr
+      guid: 72ec5c708b37fb48a312bbeeba2a063b
+      id: 2928832990
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -327,16 +327,33 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 61a7c9568e6180479510899e105c52ae
-      - ElementName: Play_Shoot
+      - ElementName: playPurr
+        ObjectType: 3
+        guid: 72ec5c708b37fb48a312bbeeba2a063b
+      Path: Events\Default Work Unit\playPurr
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: playShoot
+      guid: 8ced8e4c1e179246ad24f19baa2e8ab1
+      id: 1489638472
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 61a7c9568e6180479510899e105c52ae
+      - ElementName: playShoot
         ObjectType: 3
         guid: 8ced8e4c1e179246ad24f19baa2e8ab1
-      Path: Events\Default Work Unit\Play_Shoot
+      Path: Events\Default Work Unit\playShoot
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: SFX_Mute
+    - name: sfxMute
       guid: 9293c8f8d8c9a142a15826b1ab5e7ffe
-      id: 2835551186
+      id: 1264305561
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -344,16 +361,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 61a7c9568e6180479510899e105c52ae
-      - ElementName: SFX_Mute
+      - ElementName: sfxMute
         ObjectType: 3
         guid: 9293c8f8d8c9a142a15826b1ab5e7ffe
-      Path: Events\Default Work Unit\SFX_Mute
+      Path: Events\Default Work Unit\sfxMute
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: SFX_unmute
+    - name: sfxUnmute
       guid: d842e200c24eed4da025b79ac38c2de3
-      id: 1305045635
+      id: 4069662840
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -361,10 +378,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 61a7c9568e6180479510899e105c52ae
-      - ElementName: SFX_unmute
+      - ElementName: sfxUnmute
         ObjectType: 3
         guid: d842e200c24eed4da025b79ac38c2de3
-      Path: Events\Default Work Unit\SFX_unmute
+      Path: Events\Default Work Unit\sfxUnmute
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -380,8 +397,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: b41b6e59645d5147966d11a6e5a57e86
     GuidInternal: 
-    m_lastTime: -8585348788636409048
-    List: []
+    m_lastTime: -8585346983516770956
+    List:
+    - name: PlayerHealth
+      guid: e55c446bf844fd42af2f32de44f94832
+      id: 151362964
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b41b6e59645d5147966d11a6e5a57e86
+      - ElementName: PlayerHealth
+        ObjectType: 13
+        guid: e55c446bf844fd42af2f32de44f94832
+      Path: Game Parameters\Default Work Unit\PlayerHealth
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -394,8 +425,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: ef34a88aff8d914ab9ddc8231cdae592
     GuidInternal: 
-    m_lastTime: -8585348788635959192
-    List: []
+    m_lastTime: -8585346972507290173
+    List:
+    - name: PlayerLife
+      guid: d777d13f99202c47bebeeee12f31ca18
+      id: 444815956
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ef34a88aff8d914ab9ddc8231cdae592
+      - ElementName: PlayerLife
+        ObjectType: 9
+        guid: d777d13f99202c47bebeeee12f31ca18
+      Path: States\Default Work Unit\PlayerLife
+      values:
+      - name: Alive
+        guid: 09121c410353344cbcc4cd895a350d77
+        id: 655265632
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ef34a88aff8d914ab9ddc8231cdae592
+        - ElementName: PlayerLife
+          ObjectType: 9
+          guid: d777d13f99202c47bebeeee12f31ca18
+        - ElementName: Alive
+          ObjectType: 8
+          guid: 09121c410353344cbcc4cd895a350d77
+      - name: None
+        guid: 50ec5a71c74836409bc489f84bb949bb
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ef34a88aff8d914ab9ddc8231cdae592
+        - ElementName: PlayerLife
+          ObjectType: 9
+          guid: d777d13f99202c47bebeeee12f31ca18
+        - ElementName: None
+          ObjectType: 8
+          guid: 50ec5a71c74836409bc489f84bb949bb
+      - name: Unalive
+        guid: c3db2392a6de4e46aec596fd0d194f24
+        id: 1999921723
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ef34a88aff8d914ab9ddc8231cdae592
+        - ElementName: PlayerLife
+          ObjectType: 9
+          guid: d777d13f99202c47bebeeee12f31ca18
+        - ElementName: Unalive
+          ObjectType: 8
+          guid: c3db2392a6de4e46aec596fd0d194f24
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -408,7 +505,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: c963af901a600e479305e12b796fc6a3
     GuidInternal: 
-    m_lastTime: -8585347099354510957
+    m_lastTime: -8585347013054751975
     List:
     - name: Cooking
       guid: ee3beec9aeba6a44ad28ff4307220ea3
@@ -557,7 +654,7 @@ MonoBehaviour:
     m_lastTime: -8585348788635949194
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000170000001800000019000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

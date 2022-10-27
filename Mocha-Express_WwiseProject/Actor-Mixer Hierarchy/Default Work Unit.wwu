@@ -37,7 +37,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BADE4A1-707F-4B06-83D0-E39C535002DA}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
+									<ObjectRef Name="SFX" ID="{311C5CAC-CEC2-4B2C-A5D4-EA4340342114}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -326,9 +326,6 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<Sound Name="purrLoopJamar" ID="{E34A622F-20AA-4EA0-A250-96E4058E707C}" ShortID="371406087">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BADE4A1-707F-4B06-83D0-E39C535002DA}"/>
@@ -339,6 +336,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="purrLoopJamar" ID="{1FE285D9-BF2A-4951-8BD1-328B70B841E3}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.08111530671296"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.1879697265625"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>purrLoopJamar.wav</AudioFile>
 											<MediaIDList>
@@ -362,7 +364,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BADE4A1-707F-4B06-83D0-E39C535002DA}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
+									<ObjectRef Name="SFX" ID="{311C5CAC-CEC2-4B2C-A5D4-EA4340342114}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -534,7 +536,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BADE4A1-707F-4B06-83D0-E39C535002DA}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
+									<ObjectRef Name="SFX" ID="{311C5CAC-CEC2-4B2C-A5D4-EA4340342114}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -609,7 +611,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BADE4A1-707F-4B06-83D0-E39C535002DA}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
+									<ObjectRef Name="SFX" ID="{311C5CAC-CEC2-4B2C-A5D4-EA4340342114}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -867,9 +869,104 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BADE4A1-707F-4B06-83D0-E39C535002DA}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
+									<ObjectRef Name="SFX" ID="{311C5CAC-CEC2-4B2C-A5D4-EA4340342114}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="lowHealth" ID="{109C680B-1F67-493C-BF24-8E5780E5A109}" ShortID="219714735">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BADE4A1-707F-4B06-83D0-E39C535002DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lowHealth" ID="{B2B8AC0E-0851-4EF6-94C9-FE1B4B1DB440}">
+											<Language>SFX</Language>
+											<AudioFile>lowHealth.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="804147299"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="PlayerLife" ID="{3FD177D7-2099-472C-BEBE-EEE12F31CA18}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Unalive" ID="{9223DBC3-DEA6-464E-AEC5-96FD0D194F24}"/>
+												<CustomState Name="" ID="{88688C1C-96E8-4146-821E-164A049278A4}" ShortID="389120102">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="100"/>
+														<Property Name="Volume" Type="Real64" Value="-96.3"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Alive" ID="{411C1209-5303-4C34-BCC4-CD895A350D77}"/>
+												<CustomState Name="" ID="{9E364A7C-7723-4C20-9A96-48C9A2B66FB2}" ShortID="880848327"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{F55AF104-7D81-4A88-9D53-BD7A05D1864F}" ShortID="276179112">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="PlayerHealth" ID="{6B445CE5-44F8-42FD-AF2F-32DE44F94832}" WorkUnitID="{596E1BB4-5D64-4751-966D-11A6E5A57E86}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{9917EE0F-BB48-4D7D-A2D9-562EE714F86B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-0.16976</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Log3</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>20.14475</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Exp3</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="lowHealth" ID="{B2B8AC0E-0851-4EF6-94C9-FE1B4B1DB440}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
 				</Folder>

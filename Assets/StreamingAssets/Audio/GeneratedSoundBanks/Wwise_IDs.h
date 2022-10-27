@@ -13,21 +13,38 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID MUSIC_MUTE = 1696404602U;
-        static const AkUniqueID MUSIC_UNMUTE = 2132259803U;
-        static const AkUniqueID PLAY_BOLT = 1340741931U;
-        static const AkUniqueID PLAY_COOKING = 4057174442U;
-        static const AkUniqueID PLAY_FOODREADY = 3707288775U;
-        static const AkUniqueID PLAY_ITEMPICKUP = 4241593335U;
-        static const AkUniqueID PLAY_ITEMPLACE = 1507987364U;
-        static const AkUniqueID PLAY_MENUCLICK = 2576276897U;
-        static const AkUniqueID PLAY_MENUSELECT = 40516875U;
-        static const AkUniqueID PLAY_MEOWDEEP = 2738186904U;
-        static const AkUniqueID PLAY_MEOWNORMAL = 3162458979U;
-        static const AkUniqueID PLAY_SHOOT = 2641650631U;
-        static const AkUniqueID SFX_MUTE = 2835551186U;
-        static const AkUniqueID SFX_UNMUTE = 1305045635U;
+        static const AkUniqueID MAPLOADED = 3246529682U;
+        static const AkUniqueID MUSICMUTE = 153626945U;
+        static const AkUniqueID MUSICUNMUTE = 2098179344U;
+        static const AkUniqueID PLAYCOOKING = 1262020357U;
+        static const AkUniqueID PLAYFOODREADY = 3266981704U;
+        static const AkUniqueID PLAYITEMPICKUP = 4016420606U;
+        static const AkUniqueID PLAYITEMPLACE = 3776118347U;
+        static const AkUniqueID PLAYMENUCLICK = 3838137654U;
+        static const AkUniqueID PLAYMENUSELECT = 1024214430U;
+        static const AkUniqueID PLAYMEOWDEEP = 921832693U;
+        static const AkUniqueID PLAYMEOWNORMAL = 3249829222U;
+        static const AkUniqueID PLAYPURR = 2928832990U;
+        static const AkUniqueID PLAYSHOOT = 1489638472U;
+        static const AkUniqueID SFXMUTE = 1264305561U;
+        static const AkUniqueID SFXUNMUTE = 4069662840U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace PLAYERLIFE
+        {
+            static const AkUniqueID GROUP = 444815956U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ALIVE = 655265632U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID UNALIVE = 1999921723U;
+            } // namespace STATE
+        } // namespace PLAYERLIFE
+
+    } // namespace STATES
 
     namespace SWITCHES
     {
@@ -56,6 +73,11 @@ namespace AK
         } // namespace PLATEAMMO
 
     } // namespace SWITCHES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID PLAYERHEALTH = 151362964U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

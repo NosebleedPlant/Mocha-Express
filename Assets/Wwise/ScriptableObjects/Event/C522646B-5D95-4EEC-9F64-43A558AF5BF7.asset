@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 261370e53d2bc20449d19f73163f6f9f, type: 3}
   m_Name: C522646B-5D95-4EEC-9F64-43A558AF5BF7
   m_EditorClassIdentifier: 
-  objectName: Play_foodReady
-  id: 3707288775
+  objectName: playFoodReady
+  id: 3266981704
   guid: C522646B-5D95-4EEC-9F64-43A558AF5BF7

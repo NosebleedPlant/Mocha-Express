@@ -11,7 +11,19 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="SFX" ID="{311C5CAC-CEC2-4B2C-A5D4-EA4340342114}"/>
-						<Bus Name="Music" ID="{E6C0B216-0F7F-4A16-81BA-54B9548B13BE}"/>
+						<Bus Name="Music" ID="{E6C0B216-0F7F-4A16-81BA-54B9548B13BE}">
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="SFX" ID="{311C5CAC-CEC2-4B2C-A5D4-EA4340342114}"/>
+									<DuckingParam>
+										<Volume>-6</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 261370e53d2bc20449d19f73163f6f9f, type: 3}
   m_Name: A5E102A8-C302-425E-AA9B-58871431ED0A
   m_EditorClassIdentifier: 
-  objectName: Play_meowNormal
-  id: 3162458979
+  objectName: playMeowNormal
+  id: 3249829222
   guid: A5E102A8-C302-425E-AA9B-58871431ED0A

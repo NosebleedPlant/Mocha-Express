@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 261370e53d2bc20449d19f73163f6f9f, type: 3}
   m_Name: 405930E8-98C5-48E5-9E63-80BECFAE95DE
   m_EditorClassIdentifier: 
-  objectName: Play_menuSelect
-  id: 40516875
+  objectName: playMenuSelect
+  id: 1024214430
   guid: 405930E8-98C5-48E5-9E63-80BECFAE95DE
