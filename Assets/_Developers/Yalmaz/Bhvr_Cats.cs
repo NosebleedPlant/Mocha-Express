@@ -15,12 +15,20 @@ public class Bhvr_Cats : MonoBehaviour
         private int damage = 0;
         [SerializeField, Tooltip("Movement speed of the Cat")]
         private float speed = 20;
-        [SerializeField, Tooltip("Deviation from shortest path to target")]
-        private float deviation = 0;
-
+        [SerializeField, Tooltip("Wait time between each attack")]
+        private float timeBetweenAttacks = 0;
+        [SerializeField, Tooltip("Target that Cat is moving towards")]
         private Transform _targetTransform;
+        
+        [SerializeField, Tooltip("")]
+        private Collider2D _workArea;
+        [SerializeField, Tooltip("")]
+        private Mgr_Game _gameManager;
+
         private Rigidbody2D _rBdy;
         private Vector3 _direction;
+        private bool _isAttacking;
+        private float _attackTimer;
     #endregion
 
     #region //////Properties//////
@@ -28,9 +36,21 @@ public class Bhvr_Cats : MonoBehaviour
         {
             get => _targetTransform;
             set
-            {
-                _targetTransform = value;
-            }
+            {_targetTransform = value;}
+        }
+
+        public Mgr_Game gameManager 
+        {
+            get => _gameManager;
+            set
+            {_gameManager = value;}
+        }
+
+        public Collider2D workArea 
+        {
+            get => _workArea;
+            set
+            {_workArea = value;}
         }
     #endregion
 
@@ -40,22 +60,44 @@ public class Bhvr_Cats : MonoBehaviour
             _rBdy = GetComponent<Rigidbody2D>();
         }
 
-        private void OnEnable() => Mgr_Cats.CatsInLevel.Add(this);
-        private void OnDisable() => Mgr_Cats.CatsInLevel.Remove(this);
-
         private void FixedUpdate()
         {
             Target();
             _rBdy.velocity = _direction*speed*Time.deltaTime;
         }
 
-        private void OnTriggerEnter2D(Collider2D other)
+        private void Update()
         {
-            if(other.tag == "Bullet"&&health<0){
-                GameObject.Destroy(other.gameObject);
+            if(health<=0)
+            {
                 GameObject.Destroy(transform.gameObject);
             }
-            health--;
+            else if(_isAttacking) 
+            {
+                _attackTimer-=Time.deltaTime;
+                Debug.Log(_attackTimer);
+                if(_attackTimer <0)
+                {
+                    gameManager.takeHit(damage);
+                    _attackTimer= timeBetweenAttacks;
+                }
+            }
+        }
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if(other.tag == "Bullet" && health>0){
+                health-= other.GetComponent<Bhvr_Bullet>().damage;
+                GameObject.Destroy(other.gameObject);
+                //JTC Cat gets hit
+            }
+            else if(other.tag == "WorkArea")
+            {
+                //JTC Cat attacks
+                speed = 0;
+                _isAttacking=true;
+                _attackTimer= timeBetweenAttacks;
+            }
         }
     #endregion
 
@@ -66,6 +108,5 @@ public class Bhvr_Cats : MonoBehaviour
         _direction = (_targetTransform.position-transform.position).normalized;
     }
 
-    //TODO: INTERACTION WITH WALL!
     //TODO: ATTACK ANIMATION
 }

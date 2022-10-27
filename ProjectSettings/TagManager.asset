@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Tower
   - Bullet
+  - WorkArea
   layers:
   - Default
   - TransparentFX
