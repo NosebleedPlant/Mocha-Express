@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{906F145D-8EC4-98DD-8896-A13B6757E8AB}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{0AFE290C-048D-B29F-5BCF-81C5CD78A99E}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -19,26 +19,215 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="1081040201" Name="PlateAmmo">
+					<Switches>
+						<Switch Id="2292682242" Name="Canned"/>
+						<Switch Id="2469960200" Name="Venusian"/>
+						<Switch Id="2962930641" Name="PlanetX"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2449017287" Name="Cooking">
+					<Switches>
+						<Switch Id="898583890" Name="Fry"/>
+						<Switch Id="1182670517" Name="Mix"/>
+						<Switch Id="1660835247" Name="Boil"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{578F4F8A-E72A-A66E-24D6-F997E61AB51C}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A0CDAB88-6D85-2D35-B03D-8028BCB9CD9D}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="167051102" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>itemPlace.wav</ShortName>
+					<CachePath>SFX/itemPlace_9CD4CC67.wem</CachePath>
+				</File>
+				<File Id="184347556" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>fryFood.wav</ShortName>
+					<CachePath>SFX/fryFood_0F86FFA9.wem</CachePath>
+				</File>
+				<File Id="224669720" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>deepMeowJamar2.wav</ShortName>
+					<CachePath>SFX/deepMeowJamar2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="229868693" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shootCannedTuna.wav</ShortName>
+					<CachePath>SFX/shootCannedTuna_10C4C929.wem</CachePath>
+				</File>
+				<File Id="284279740" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sadHighMeowYalmaz.wav</ShortName>
+					<CachePath>SFX/sadHighMeowYalmaz_6F707001.wem</CachePath>
+				</File>
+				<File Id="415549626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>deepMeowJamar1.wav</ShortName>
+					<CachePath>SFX/deepMeowJamar1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="499174852" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sadMeowYalmaz.wav</ShortName>
+					<CachePath>SFX/sadMeowYalmaz_10C4C929.wem</CachePath>
+				</File>
+				<File Id="524709828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>menuSelect.wav</ShortName>
+					<CachePath>SFX/menuSelect_4BAA41E0.wem</CachePath>
+				</File>
+				<File Id="529155353" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shootPlanetX.wav</ShortName>
+					<CachePath>SFX/shootPlanetX_10C4C929.wem</CachePath>
+				</File>
+				<File Id="552031213" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>itemPickup.wav</ShortName>
+					<CachePath>SFX/itemPickup_6A359C41.wem</CachePath>
+				</File>
+				<File Id="573760164" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>menuClick.wav</ShortName>
+					<CachePath>SFX/menuClick_2DEE817E.wem</CachePath>
+				</File>
 				<File Id="732194522" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bolt.wav</ShortName>
 					<CachePath>SFX/Bolt_10C4C929.wem</CachePath>
 				</File>
+				<File Id="838599348" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>foodReady.wav</ShortName>
+					<CachePath>SFX/foodReady_10C4C929.wem</CachePath>
+				</File>
+				<File Id="855061033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shootVenusianJane.wav</ShortName>
+					<CachePath>SFX/shootVenusianJane_10C4C929.wem</CachePath>
+				</File>
+				<File Id="888557458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>maoJamar2.wav</ShortName>
+					<CachePath>SFX/maoJamar2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1036578900" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>maoJamar1.wav</ShortName>
+					<CachePath>SFX/maoJamar1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1038210954" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mixFood.wav</ShortName>
+					<CachePath>SFX/mixFood_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1042809178" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>boilFood.wav</ShortName>
+					<CachePath>SFX/boilFood_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="1696404602" Name="Music_mute" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2132259803" Name="Music_unmute" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1340741931" Name="Play_Bolt" DurationType="OneShot" DurationMin="1.3840363" DurationMax="1.3840363">
 					<MediaRefs>
 						<MediaRef Id="732194522"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4057174442" Name="Play_Cooking" DurationType="OneShot" DurationMin="1.1869167" DurationMax="4.877125">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2449017287" Id="898583890"/>
+							<MediaRefs>
+								<MediaRef Id="184347556"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2449017287" Id="1660835247" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="1042809178"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2449017287" Id="1182670517"/>
+							<MediaRefs>
+								<MediaRef Id="1038210954"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3707288775" Name="Play_foodReady" DurationType="OneShot" DurationMin="1.586375" DurationMax="1.586375">
+					<MediaRefs>
+						<MediaRef Id="838599348"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4241593335" Name="Play_itemPickup" DurationType="OneShot" DurationMin="0.31539425" DurationMax="0.31539425">
+					<MediaRefs>
+						<MediaRef Id="552031213"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1507987364" Name="Play_itemPlace" DurationType="OneShot" DurationMin="0.24092616" DurationMax="0.24092616">
+					<MediaRefs>
+						<MediaRef Id="167051102"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2576276897" Name="Play_menuClick" DurationType="OneShot" DurationMin="0.111801244" DurationMax="0.111801244">
+					<MediaRefs>
+						<MediaRef Id="573760164"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="40516875" Name="Play_menuSelect" DurationType="OneShot" DurationMin="0.91677094" DurationMax="0.91677094">
+					<MediaRefs>
+						<MediaRef Id="524709828"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2738186904" Name="Play_meowDeep" DurationType="OneShot" DurationMin="1.0270711" DurationMax="1.5512662">
+					<MediaRefs>
+						<MediaRef Id="224669720"/>
+						<MediaRef Id="415549626"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3162458979" Name="Play_meowNormal" DurationType="OneShot" DurationMin="0.7015184" DurationMax="1.1624078">
+					<MediaRefs>
+						<MediaRef Id="284279740"/>
+						<MediaRef Id="499174852"/>
+						<MediaRef Id="888557458"/>
+						<MediaRef Id="1036578900"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2641650631" Name="Play_Shoot" DurationType="OneShot" DurationMin="1" DurationMax="2">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1081040201" Id="2292682242" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="229868693"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1081040201" Id="2962930641"/>
+							<MediaRefs>
+								<MediaRef Id="529155353"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1081040201" Id="2469960200"/>
+							<MediaRefs>
+								<MediaRef Id="855061033"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2835551186" Name="SFX_Mute" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1305045635" Name="SFX_unmute" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="1081040201" Name="PlateAmmo">
+					<Switches>
+						<Switch Id="2292682242" Name="Canned"/>
+						<Switch Id="2469960200" Name="Venusian"/>
+						<Switch Id="2962930641" Name="PlanetX"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2449017287" Name="Cooking">
+					<Switches>
+						<Switch Id="898583890" Name="Fry"/>
+						<Switch Id="1182670517" Name="Mix"/>
+						<Switch Id="1660835247" Name="Boil"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2F7776BF-128C-60D7-0FDD-2096CB6EB26F}</FileHash>
+	<FileHash>{53FC53E4-F278-0AC0-4AA8-5FAE019ECC30}</FileHash>
 </SoundBanksInfo>

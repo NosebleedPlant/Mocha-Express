@@ -1,6 +1,48 @@
 Event	ID	Name			Wwise Object Path	Notes
+	40516875	Play_menuSelect			\Default Work Unit\Play_menuSelect	
+	1305045635	SFX_unmute			\Default Work Unit\SFX_unmute	
 	1340741931	Play_Bolt			\Default Work Unit\Play_Bolt	
+	1507987364	Play_itemPlace			\Default Work Unit\Play_itemPlace	
+	1696404602	Music_mute			\Default Work Unit\Music_mute	
+	2132259803	Music_unmute			\Default Work Unit\Music_unmute	
+	2576276897	Play_menuClick			\Default Work Unit\Play_menuClick	
+	2641650631	Play_Shoot			\Default Work Unit\Play_Shoot	
+	2738186904	Play_meowDeep			\Default Work Unit\Play_meowDeep	
+	2835551186	SFX_Mute			\Default Work Unit\SFX_Mute	
+	3162458979	Play_meowNormal			\Default Work Unit\Play_meowNormal	
+	3707288775	Play_foodReady			\Default Work Unit\Play_foodReady	
+	4057174442	Play_Cooking			\Default Work Unit\Play_Cooking	
+	4241593335	Play_itemPickup			\Default Work Unit\Play_itemPickup	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1081040201	PlateAmmo			\Default Work Unit\PlateAmmo	
+	2449017287	Cooking			\Default Work Unit\Cooking	
+
+Switch	ID	Name	Switch Group			Notes
+	2292682242	Canned	PlateAmmo			
+	2469960200	Venusian	PlateAmmo			
+	2962930641	PlanetX	PlateAmmo			
+	898583890	Fry	Cooking			
+	1182670517	Mix	Cooking			
+	1660835247	Boil	Cooking			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	167051102	itemPlace	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\itemPlace_9CD4CC67.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\itemPlace		46352
+	184347556	fryFood	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\fryFood_0F86FFA9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\Cooking\fryFood		599468
+	224669720	deepMeowJamar2	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\deepMeowJamar2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowDeep\deepMeowJamar2		272904
+	229868693	shootCannedTuna	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\shootCannedTuna_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Towers\Shoot\shootCannedTuna		192096
+	284279740	sadHighMeowYalmaz	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\sadHighMeowYalmaz_6F707001.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowNormal\sadHighMeowYalmaz		172584
+	415549626	deepMeowJamar1	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\deepMeowJamar1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowDeep\deepMeowJamar1		228324
+	499174852	sadMeowYalmaz	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\sadMeowYalmaz_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowNormal\sadMeowYalmaz		201588
+	524709828	menuSelect	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\menuSelect_4BAA41E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Menu\menuSelect		176116
+	529155353	shootPlanetX	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\shootPlanetX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Towers\Shoot\shootPlanetX		288096
+	552031213	itemPickup	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\itemPickup_6A359C41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\itemPickup		60652
+	573760164	menuClick	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\menuClick_2DEE817E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Menu\menuClick		21560
 	732194522	Bolt	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\Bolt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bolt		244240
+	838599348	foodReady	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\foodReady_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\foodReady		304680
+	855061033	shootVenusianJane	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\shootVenusianJane_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Towers\Shoot\shootVenusianJane		384096
+	888557458	maoJamar2	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\maoJamar2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowNormal\maoJamar2		144956
+	1036578900	maoJamar1	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\maoJamar1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowNormal\maoJamar1		147004
+	1038210954	mixFood	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\mixFood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\Cooking\mixFood		227984
+	1042809178	boilFood	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\boilFood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\Cooking\boilFood		936504
 

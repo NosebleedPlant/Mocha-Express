@@ -22,6 +22,8 @@ namespace AK
         static const AkUniqueID PLAY_ITEMPLACE = 1507987364U;
         static const AkUniqueID PLAY_MENUCLICK = 2576276897U;
         static const AkUniqueID PLAY_MENUSELECT = 40516875U;
+        static const AkUniqueID PLAY_MEOWDEEP = 2738186904U;
+        static const AkUniqueID PLAY_MEOWNORMAL = 3162458979U;
         static const AkUniqueID PLAY_SHOOT = 2641650631U;
         static const AkUniqueID SFX_MUTE = 2835551186U;
         static const AkUniqueID SFX_UNMUTE = 1305045635U;

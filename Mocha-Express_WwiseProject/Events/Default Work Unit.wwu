@@ -151,6 +151,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_meowNormal" ID="{A5E102A8-C302-425E-AA9B-58871431ED0A}">
+					<ChildrenList>
+						<Action Name="" ID="{941117AB-14D3-490A-BF27-15E8E5846B04}" ShortID="807895254">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="meowNormal" ID="{BF4E854C-9F08-4C4B-8B30-05C300DA4244}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_meowDeep" ID="{FDC947BF-8125-49F9-8BA1-FE0E6E64AE2A}">
+					<ChildrenList>
+						<Action Name="" ID="{A106F18B-F2A0-46C1-B063-392CA6ECE628}" ShortID="47063010">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="meowDeep" ID="{486DBA57-626C-4A10-9075-FD88427C1803}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

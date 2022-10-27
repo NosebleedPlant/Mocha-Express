@@ -40,25 +40,41 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{31879245-8634-26B2-50D1-E1CA4D642307}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C5057F45-511F-06D6-F2AE-C4915A685EA9}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="167051102" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>itemPlace.wav</ShortName>
-					<CachePath>SFX/itemPlace_6FA718AC.wem</CachePath>
+					<CachePath>SFX/itemPlace_A958A837.wem</CachePath>
 				</File>
 				<File Id="184347556" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>fryFood.wav</ShortName>
-					<CachePath>SFX/fryFood_6FE90D37.wem</CachePath>
+					<CachePath>SFX/fryFood_F2473D39.wem</CachePath>
+				</File>
+				<File Id="224669720" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>deepMeowJamar2.wav</ShortName>
+					<CachePath>SFX/deepMeowJamar2_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="229868693" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>shootCannedTuna.wav</ShortName>
 					<CachePath>SFX/shootCannedTuna_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="284279740" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sadHighMeowYalmaz.wav</ShortName>
+					<CachePath>SFX/sadHighMeowYalmaz_66E82751.wem</CachePath>
+				</File>
+				<File Id="415549626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>deepMeowJamar1.wav</ShortName>
+					<CachePath>SFX/deepMeowJamar1_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="499174852" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sadMeowYalmaz.wav</ShortName>
+					<CachePath>SFX/sadMeowYalmaz_3F75BDB9.wem</CachePath>
+				</File>
 				<File Id="524709828" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>menuSelect.wav</ShortName>
-					<CachePath>SFX/menuSelect_7037D009.wem</CachePath>
+					<CachePath>SFX/menuSelect_8400F3D0.wem</CachePath>
 				</File>
 				<File Id="529155353" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>shootPlanetX.wav</ShortName>
@@ -66,11 +82,11 @@
 				</File>
 				<File Id="552031213" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>itemPickup.wav</ShortName>
-					<CachePath>SFX/itemPickup_74FA17AD.wem</CachePath>
+					<CachePath>SFX/itemPickup_3DE78051.wem</CachePath>
 				</File>
 				<File Id="573760164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>menuClick.wav</ShortName>
-					<CachePath>SFX/menuClick_09C8605C.wem</CachePath>
+					<CachePath>SFX/menuClick_81E8916E.wem</CachePath>
 				</File>
 				<File Id="732194522" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bolt.wav</ShortName>
@@ -83,6 +99,14 @@
 				<File Id="855061033" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>shootVenusianJane.wav</ShortName>
 					<CachePath>SFX/shootVenusianJane_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="888557458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>maoJamar2.wav</ShortName>
+					<CachePath>SFX/maoJamar2_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1036578900" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>maoJamar1.wav</ShortName>
+					<CachePath>SFX/maoJamar1_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="1038210954" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>mixFood.wav</ShortName>
@@ -148,6 +172,20 @@
 						<MediaRef Id="524709828"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2738186904" Name="Play_meowDeep" DurationType="OneShot" DurationMin="1.0270711" DurationMax="1.5512662">
+					<MediaRefs>
+						<MediaRef Id="224669720"/>
+						<MediaRef Id="415549626"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3162458979" Name="Play_meowNormal" DurationType="OneShot" DurationMin="0.7015184" DurationMax="1.1624078">
+					<MediaRefs>
+						<MediaRef Id="284279740"/>
+						<MediaRef Id="499174852"/>
+						<MediaRef Id="888557458"/>
+						<MediaRef Id="1036578900"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2641650631" Name="Play_Shoot" DurationType="OneShot" DurationMin="1" DurationMax="2">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -191,5 +229,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D2C43C7C-0AE9-4DCF-F4E8-47BC70880DB3}</FileHash>
+	<FileHash>{4076CC98-5A7F-83AD-3BB0-EEC8592A260F}</FileHash>
 </SoundBanksInfo>
