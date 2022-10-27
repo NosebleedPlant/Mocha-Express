@@ -91,7 +91,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Mute_SFX" ID="{F8C89392-C9D8-42A1-A158-26B1AB5E7FFE}">
+				<Event Name="SFX_Mute" ID="{F8C89392-C9D8-42A1-A158-26B1AB5E7FFE}">
 					<ChildrenList>
 						<Action Name="" ID="{1A3B3A66-F954-46C1-BF3E-2D949F20BF92}" ShortID="616732217">
 							<PropertyList>
@@ -106,7 +106,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="UnMute_SFX" ID="{00E242D8-4EC2-4DED-A025-B79AC38C2DE3}">
+				<Event Name="SFX_unmute" ID="{00E242D8-4EC2-4DED-A025-B79AC38C2DE3}">
 					<ChildrenList>
 						<Action Name="" ID="{34DD4489-CB31-4E04-A1D4-F2102A7ED2CB}" ShortID="682079611">
 							<PropertyList>
@@ -116,6 +116,36 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX" ID="{311C5CAC-CEC2-4B2C-A5D4-EA4340342114}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_mute" ID="{9530284D-5210-4DBF-84A8-7CEA290ABB1B}">
+					<ChildrenList>
+						<Action Name="" ID="{11DC3D26-C0FF-413F-8448-45F7CA0EB42D}" ShortID="167451818">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{E6C0B216-0F7F-4A16-81BA-54B9548B13BE}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_unmute" ID="{2AF8ECD1-7E2F-41C9-AEF9-5DC215AAF5E4}">
+					<ChildrenList>
+						<Action Name="" ID="{3961F05D-7635-45C5-B2D3-35FB1EB9AE08}" ShortID="395444067">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{E6C0B216-0F7F-4A16-81BA-54B9548B13BE}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

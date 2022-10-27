@@ -5,7 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{4E1D28B4-A3D1-4AD6-B915-B8B27631991F}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Mute_SFX" ID="{F8C89392-C9D8-42A1-A158-26B1AB5E7FFE}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_unmute" ID="{2AF8ECD1-7E2F-41C9-AEF9-5DC215AAF5E4}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_Mute" ID="{F8C89392-C9D8-42A1-A158-26B1AB5E7FFE}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_itemPickup" ID="{34844592-BD47-432C-BDA5-6394D7451D1C}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Bolt" ID="{CC77D705-E08F-4337-B168-AFF35CF226F7}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Shoot" ID="{4C8EED8C-171E-4692-AD24-F19BAA2E8AB1}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
@@ -13,7 +14,8 @@
 						<ObjectRef Name="Play_menuClick" ID="{A1515AED-D217-4B45-8B09-50EAA2AEEDB6}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cooking" ID="{DEEE6127-11E1-4B73-8CBF-3B2D697CADC1}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_itemPlace" ID="{854F9D7D-5ED8-4D13-96E3-D377579F3176}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UnMute_SFX" ID="{00E242D8-4EC2-4DED-A025-B79AC38C2DE3}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_mute" ID="{9530284D-5210-4DBF-84A8-7CEA290ABB1B}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_unmute" ID="{00E242D8-4EC2-4DED-A025-B79AC38C2DE3}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_foodReady" ID="{C522646B-5D95-4EEC-9F64-43A558AF5BF7}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
