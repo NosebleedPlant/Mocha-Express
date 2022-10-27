@@ -13,24 +13,13 @@ public class Mgr_Cats : MonoBehaviour
     #region //////Fields//////
         // description: global list of cats in the level, the list is updated each time a cat is enabled or disabled
         public static List<Bhvr_Cats> CatsInLevel = new List<Bhvr_Cats>();
-        
-        [SerializeField, Tooltip("target that the cats are aiming towards")]
-        private Transform target;
-    #endregion
-    
-    #region //////LifeCycle//////
-        void Start()
-        {
-            foreach(Bhvr_Cats cat in CatsInLevel)
-            {
-                cat.targetTransform = target;
-            }
-        }
+        public static Mgr_Game gameManager;
+        public static Collider2D workArea;
     #endregion
 
     #region //////EditorScript//////
         #if UNITY_EDITOR
-        void OnDrawGizmos()
+        private void OnDrawGizmos()
         {
             foreach(Bhvr_Cats cat in CatsInLevel)
             {
@@ -49,6 +38,13 @@ public class Mgr_Cats : MonoBehaviour
                     1f
                 );
             }
+        }
+
+        public static void addCat(Bhvr_Cats cat)
+        {
+            CatsInLevel.Add(cat);
+            cat.gameManager = gameManager;
+            cat.workArea = workArea;
         }
         #endif
     #endregion
