@@ -178,7 +178,7 @@ MonoBehaviour:
   - {fileID: 2581996086962548112, guid: d54178596e9ff1849a2ef973bd1d4984, type: 3}
   - {fileID: 8506891761650294123, guid: e032cbdeb6edfb142b230ca0f97806c2, type: 3}
   - {fileID: 3448358529314711311, guid: c86f146a72cc9404495d6ab20c211177, type: 3}
-  - {fileID: 5202990538797013414, guid: bd65f2e79f0de5742b654341a9adc412, type: 3}
+  - {fileID: 8506891761650294123, guid: 756a7dfde5b0f9f45ad69c013d680d41, type: 3}
   mealPrefab:
   - {fileID: 752497289920282581, guid: a419927fba51199418d4a92cd69a8379, type: 3}
   - {fileID: 264100452735640569, guid: 4241e109928a6ac48b1512ec1921ace5, type: 3}
@@ -625,6 +625,7 @@ GameObject:
   - component: {fileID: 1583358365}
   - component: {fileID: 1583358368}
   - component: {fileID: 1583358367}
+  - component: {fileID: 1583358369}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -726,6 +727,39 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &1583358369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583358363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &1673413732
 GameObject:
   m_ObjectHideFlags: 0
