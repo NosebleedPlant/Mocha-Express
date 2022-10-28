@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	153626945	musicMute			\Default Work Unit\musicMute	
+	679636833	menuMusic			\Music\menuMusic	
+	2098179344	musicUnmute			\Default Work Unit\musicUnmute	
+	2275179450	gameplayMusic			\Music\gameplayMusic	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	151362964	PlayerHealth			\Default Work Unit\PlayerHealth	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	313598606	MenuTrack_153BPM_34BL	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\MenuTrack_153BPM_34BL_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Menu\MenuTrack_153BPM_34BL\MenuTrack_153BPM_34BL		10315392
+	331465606	GameplayNormal	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\GameplayNormal_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Main\Gameplay\GameplayNormal		14290732
+	748749876	GameplayNormal	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\GameplayDanger_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Main\Gameplay\GameplayNormal		14290732
+

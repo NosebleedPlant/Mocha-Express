@@ -988,6 +988,60 @@
 								</Sound>
 							</ChildrenList>
 						</ActorMixer>
+						<Folder Name="Stingers" ID="{E4CC7F05-39E9-4C54-9BFC-83DE82D5A74D}" ShortID="643276116">
+							<ChildrenList>
+								<Sound Name="stingerFailed" ID="{9C50D8D4-AB89-44F5-B308-84D978923AAF}" ShortID="224798471">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BADE4A1-707F-4B06-83D0-E39C535002DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="stingerFailed" ID="{CD73F2E2-7074-4454-B563-8D165BDD0BA4}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.649237472766884"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.331200515935567"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.82135076252723"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>stingerFailed.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="883824443"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="stingerFailed" ID="{CD73F2E2-7074-4454-B563-8D165BDD0BA4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="stingerSuccess" ID="{5ACAC714-71B1-4FC5-99EA-F60EEA01129A}" ShortID="1069778258">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BADE4A1-707F-4B06-83D0-E39C535002DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="stingerSuccess" ID="{FD248181-17A5-4A58-9E9F-AB334D9E3D4B}">
+											<Language>SFX</Language>
+											<AudioFile>stingerSuccess.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="423263521"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="stingerSuccess" ID="{FD248181-17A5-4A58-9E9F-AB334D9E3D4B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

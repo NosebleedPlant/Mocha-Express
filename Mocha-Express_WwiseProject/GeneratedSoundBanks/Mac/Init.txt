@@ -1,3 +1,18 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3112308633	HealthStatus			\Music\HealthStatus	
+
+Switch	ID	Name	Switch Group			Notes
+	1017222595	LowHealth	HealthStatus			
+	2874639328	Healthy	HealthStatus			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	444815956	PlayerLife			\Default Work Unit\PlayerLife	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	PlayerLife			
+	748895195	None	PlayerLife			
+	1999921723	Unalive	PlayerLife			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

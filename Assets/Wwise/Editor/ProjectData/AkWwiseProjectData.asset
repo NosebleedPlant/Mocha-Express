@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: ccef9e29bc609242a30cc1984562c6c6
     GuidInternal: 
-    m_lastTime: -8585346972373293003
+    m_lastTime: -8585346842530112573
     List:
     - name: Main
       guid: b4281d4ed1a3d64ab915b8b27631991f
@@ -116,6 +116,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: b4281d4ed1a3d64ab915b8b27631991f
       Path: SoundBanks\Default Work Unit\Main
+    - name: Music
+      guid: 16d7c7fc4071a04b9246adab64ee9480
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ccef9e29bc609242a30cc1984562c6c6
+      - ElementName: Music
+        ObjectType: 7
+        guid: 16d7c7fc4071a04b9246adab64ee9480
+      Path: SoundBanks\Default Work Unit\Music
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -385,6 +399,53 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+  - PhysicalPath: Events\Music.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Music
+      ObjectType: 12
+      guid: 29fd798683b14f41b0b117d4c5b660b4
+    ParentPath: Events\Music
+    guid: 29fd798683b14f41b0b117d4c5b660b4
+    GuidInternal: 
+    m_lastTime: -8585346842530072575
+    List:
+    - name: gameplayMusic
+      guid: 021fcad8d94901489b8ea3f52a454ad6
+      id: 2275179450
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: 29fd798683b14f41b0b117d4c5b660b4
+      - ElementName: gameplayMusic
+        ObjectType: 3
+        guid: 021fcad8d94901489b8ea3f52a454ad6
+      Path: Events\Music\gameplayMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: menuMusic
+      guid: 4072f7e91f030247b1222edde904d93a
+      id: 679636833
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: 29fd798683b14f41b0b117d4c5b660b4
+      - ElementName: menuMusic
+        ObjectType: 3
+        guid: 4072f7e91f030247b1222edde904d93a
+      Path: Events\Music\menuMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -397,7 +458,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: b41b6e59645d5147966d11a6e5a57e86
     GuidInternal: 
-    m_lastTime: -8585346983516770956
+    m_lastTime: -8585346863447392426
     List:
     - name: PlayerHealth
       guid: e55c446bf844fd42af2f32de44f94832
@@ -505,7 +566,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: c963af901a600e479305e12b796fc6a3
     GuidInternal: 
-    m_lastTime: -8585347013054751975
+    m_lastTime: -8585346870615458904
     List:
     - name: Cooking
       guid: ee3beec9aeba6a44ad28ff4307220ea3
@@ -639,6 +700,69 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
+  - PhysicalPath: Switches\Music.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Music
+      ObjectType: 12
+      guid: e2ed22140cbaec42916035b660bbb910
+    ParentPath: Switches\Music
+    guid: e2ed22140cbaec42916035b660bbb910
+    GuidInternal: 
+    m_lastTime: -8585346860797212623
+    List:
+    - name: HealthStatus
+      guid: 0c00d0309ac7c44e869b1f23a986dc21
+      id: 3112308633
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: e2ed22140cbaec42916035b660bbb910
+      - ElementName: HealthStatus
+        ObjectType: 11
+        guid: 0c00d0309ac7c44e869b1f23a986dc21
+      Path: Switches\Music\HealthStatus
+      values:
+      - name: Healthy
+        guid: b2d40780eab98a4f86a20c1057dec87c
+        id: 2874639328
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Music
+          ObjectType: 12
+          guid: e2ed22140cbaec42916035b660bbb910
+        - ElementName: HealthStatus
+          ObjectType: 11
+          guid: 0c00d0309ac7c44e869b1f23a986dc21
+        - ElementName: Healthy
+          ObjectType: 10
+          guid: b2d40780eab98a4f86a20c1057dec87c
+      - name: LowHealth
+        guid: f34fc660df1233438698f40e1d1eb7c1
+        id: 1017222595
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Music
+          ObjectType: 12
+          guid: e2ed22140cbaec42916035b660bbb910
+        - ElementName: HealthStatus
+          ObjectType: 11
+          guid: 0c00d0309ac7c44e869b1f23a986dc21
+        - ElementName: LowHealth
+          ObjectType: 10
+          guid: f34fc660df1233438698f40e1d1eb7c1
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -654,7 +778,7 @@ MonoBehaviour:
     m_lastTime: -8585348788635949194
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0100000006000000170000001b0000001c0000001e000000210000002500000026000000290000002a000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

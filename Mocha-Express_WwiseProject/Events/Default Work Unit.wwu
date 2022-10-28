@@ -194,6 +194,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="playStingerFailed" ID="{F86F01C7-2F6B-4A5D-9965-970CA3B24E2D}">
+					<ChildrenList>
+						<Action Name="" ID="{6E57375A-0B9F-43A4-B3B2-BDFA74A35229}" ShortID="390385885">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stingerFailed" ID="{9C50D8D4-AB89-44F5-B308-84D978923AAF}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playStingerSuccess" ID="{CE19A425-AE7F-497E-B4FD-E67FA353229E}">
+					<ChildrenList>
+						<Action Name="" ID="{D46F888C-3F89-4E63-95F2-5192573C2E12}" ShortID="1021235534">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stingerSuccess" ID="{5ACAC714-71B1-4FC5-99EA-F60EEA01129A}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

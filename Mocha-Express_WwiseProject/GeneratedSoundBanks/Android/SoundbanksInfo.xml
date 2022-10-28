@@ -59,7 +59,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{458A8D3D-5B92-9B8F-9866-19358C8B0F41}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{38A9D6BB-E1CF-3221-96A5-9A05D7DD9052}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -90,6 +90,10 @@
 				<File Id="415549626" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>deepMeowJamar1.wav</ShortName>
 					<CachePath>SFX/deepMeowJamar1_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="423263521" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>stingerSuccess.wav</ShortName>
+					<CachePath>SFX/stingerSuccess_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="499174852" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sadMeowYalmaz.wav</ShortName>
@@ -122,6 +126,10 @@
 				<File Id="855061033" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>shootVenusianJane.wav</ShortName>
 					<CachePath>SFX/shootVenusianJane_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="883824443" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>stingerFailed.wav</ShortName>
+					<CachePath>SFX/stingerFailed_DA5C17A6.wem</CachePath>
 				</File>
 				<File Id="888557458" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>maoJamar2.wav</ShortName>
@@ -234,6 +242,16 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2410273024" Name="playStingerFailed" DurationType="OneShot" DurationMin="3.4901502" DurationMax="3.4901502">
+					<MediaRefs>
+						<MediaRef Id="883824443"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3597360652" Name="playStingerSuccess" DurationType="OneShot" DurationMin="3" DurationMax="3">
+					<MediaRefs>
+						<MediaRef Id="423263521"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1264305561" Name="sfxMute" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4069662840" Name="sfxUnmute" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
@@ -257,7 +275,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{12F84B12-7290-1243-2721-B957BB01E1E0}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{95C5D3DF-16E9-2F59-934C-000211736F10}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -303,5 +321,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C14E8385-0325-6A00-3BDD-888B1CB9C751}</FileHash>
+	<FileHash>{77B28062-4314-EA41-CA10-966045AF2C58}</FileHash>
 </SoundBanksInfo>

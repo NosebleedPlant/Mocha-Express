@@ -4,10 +4,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	1262020357	playCooking			\Default Work Unit\playCooking	
 	1264305561	sfxMute			\Default Work Unit\sfxMute	
 	1489638472	playShoot			\Default Work Unit\playShoot	
+	2410273024	playStingerFailed			\Default Work Unit\playStingerFailed	
 	2928832990	playPurr			\Default Work Unit\playPurr	
 	3246529682	mapLoaded			\Default Work Unit\mapLoaded	
 	3249829222	playMeowNormal			\Default Work Unit\playMeowNormal	
 	3266981704	playFoodReady			\Default Work Unit\playFoodReady	
+	3597360652	playStingerSuccess			\Default Work Unit\playStingerSuccess	
 	3776118347	playItemPlace			\Default Work Unit\playItemPlace	
 	3838137654	playMenuClick			\Default Work Unit\playMenuClick	
 	4016420606	playItemPickup			\Default Work Unit\playItemPickup	
@@ -47,6 +49,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	284279740	sadHighMeowYalmaz	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\sadHighMeowYalmaz_66E82751.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowNormal\sadHighMeowYalmaz		11352
 	325764874	purrLoopJamar	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\purrLoopJamar_14EB5D87.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\purrLoopJamar		18652
 	415549626	deepMeowJamar1	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\deepMeowJamar1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowDeep\deepMeowJamar1		15475
+	423263521	stingerSuccess	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\stingerSuccess_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Stingers\stingerSuccess		51861
 	499174852	sadMeowYalmaz	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\sadMeowYalmaz_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowNormal\sadMeowYalmaz		15622
 	524709828	menuSelect	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\menuSelect_8400F3D0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Menu\menuSelect		4869
 	529155353	shootPlanetX	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\shootPlanetX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Towers\Shoot\shootPlanetX		3609
@@ -55,6 +58,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	804147299	lowHealth	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\lowHealth_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\WorkArea\lowHealth		34525
 	838599348	foodReady	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\foodReady_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\foodReady		20113
 	855061033	shootVenusianJane	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\shootVenusianJane_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Towers\Shoot\shootVenusianJane		22776
+	883824443	stingerFailed	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\stingerFailed_DA5C17A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Stingers\stingerFailed		48128
 	888557458	maoJamar2	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\maoJamar2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowNormal\maoJamar2		8381
 	1036578900	maoJamar1	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\maoJamar1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowNormal\maoJamar1		8780
 	1038210954	mixFood	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\mixFood_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\Cooking\mixFood		21846

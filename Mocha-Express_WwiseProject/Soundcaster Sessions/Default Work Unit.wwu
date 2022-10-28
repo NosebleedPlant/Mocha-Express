@@ -18,6 +18,8 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Boil" ID="{FCC1FCE0-5B1B-4CD3-B187-F060C6DEB093}"/>
+						<CurrentSwitchRef Name="Canned" ID="{F9993C4E-A12E-4705-9C93-822A4E42E583}"/>
 						<CurrentSwitchRef Name="LowHealth" ID="{60C64FF3-12DF-4333-8698-F40E1D1EB7C1}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

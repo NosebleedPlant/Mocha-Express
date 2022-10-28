@@ -28,6 +28,8 @@ namespace AK
         static const AkUniqueID PLAYMEOWNORMAL = 3249829222U;
         static const AkUniqueID PLAYPURR = 2928832990U;
         static const AkUniqueID PLAYSHOOT = 1489638472U;
+        static const AkUniqueID PLAYSTINGERFAILED = 2410273024U;
+        static const AkUniqueID PLAYSTINGERSUCCESS = 3597360652U;
         static const AkUniqueID SFXMUTE = 1264305561U;
         static const AkUniqueID SFXUNMUTE = 4069662840U;
     } // namespace EVENTS
