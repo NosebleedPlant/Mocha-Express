@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: eee5af196b045441955801f646d5b008
     GuidInternal: 
-    m_lastTime: -8585346175464885723
+    m_lastTime: -8585346124076394465
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: ccef9e29bc609242a30cc1984562c6c6
     GuidInternal: 
-    m_lastTime: -8585346175459782662
+    m_lastTime: -8585346091306032623
     List:
     - name: Main
       guid: b4281d4ed1a3d64ab915b8b27631991f
@@ -142,8 +142,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 61a7c9568e6180479510899e105c52ae
     GuidInternal: 
-    m_lastTime: -8585346175472520357
+    m_lastTime: -8585346084310652883
     List:
+    - name: gameplayMusicStop
+      guid: 20b9c819d3ee604eb0661d4dca5a69cf
+      id: 545868898
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 61a7c9568e6180479510899e105c52ae
+      - ElementName: gameplayMusicStop
+        ObjectType: 3
+        guid: 20b9c819d3ee604eb0661d4dca5a69cf
+      Path: Events\Default Work Unit\gameplayMusicStop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: mapLoaded
       guid: 0bcef91adaeafb4da77b966fab7bb6cf
       id: 3246529682
@@ -444,7 +461,7 @@ MonoBehaviour:
     ParentPath: Events\Music
     guid: 29fd798683b14f41b0b117d4c5b660b4
     GuidInternal: 
-    m_lastTime: -8585346175472520357
+    m_lastTime: -8585346153139642335
     List:
     - name: gameplayMusic
       guid: 021fcad8d94901489b8ea3f52a454ad6
@@ -492,7 +509,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: b41b6e59645d5147966d11a6e5a57e86
     GuidInternal: 
-    m_lastTime: -8585346175472510361
+    m_lastTime: -8585346153139632391
     List:
     - name: PlayerHealth
       guid: e55c446bf844fd42af2f32de44f94832
@@ -520,7 +537,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: ef34a88aff8d914ab9ddc8231cdae592
     GuidInternal: 
-    m_lastTime: -8585346175459772672
+    m_lastTime: -8585346091572910027
     List:
     - name: PlayerLife
       guid: d777d13f99202c47bebeeee12f31ca18
@@ -553,22 +570,6 @@ MonoBehaviour:
         - ElementName: Alive
           ObjectType: 8
           guid: 09121c410353344cbcc4cd895a350d77
-      - name: None
-        guid: 50ec5a71c74836409bc489f84bb949bb
-        id: 748895195
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: ef34a88aff8d914ab9ddc8231cdae592
-        - ElementName: PlayerLife
-          ObjectType: 9
-          guid: d777d13f99202c47bebeeee12f31ca18
-        - ElementName: None
-          ObjectType: 8
-          guid: 50ec5a71c74836409bc489f84bb949bb
       - name: Unalive
         guid: c3db2392a6de4e46aec596fd0d194f24
         id: 1999921723
@@ -600,7 +601,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: c963af901a600e479305e12b796fc6a3
     GuidInternal: 
-    m_lastTime: -8585346175459762776
+    m_lastTime: -8585346153125393063
     List:
     - name: Cooking
       guid: ee3beec9aeba6a44ad28ff4307220ea3
@@ -745,7 +746,7 @@ MonoBehaviour:
     ParentPath: Switches\Music
     guid: e2ed22140cbaec42916035b660bbb910
     GuidInternal: 
-    m_lastTime: -8585346175459752802
+    m_lastTime: -8585346153125383128
     List:
     - name: HealthStatus
       guid: 0c00d0309ac7c44e869b1f23a986dc21
@@ -812,7 +813,7 @@ MonoBehaviour:
     m_lastTime: -8585348788635949194
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 1f0000002000000022000000
+  ExpandedWaapiItemIds: 0500000006000000070000001c0000001d0000001e0000001f0000002000000022000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

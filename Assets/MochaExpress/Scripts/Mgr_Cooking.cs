@@ -34,6 +34,9 @@ public class Mgr_Cooking : MonoBehaviour
         foreach(Collider2D tower in towers){
             _towerBhvrs.Add(tower.GetComponentInParent<Bhvr_Tower>());
         }
+
+     //   AkSoundEngine.PostEvent("playItemPickup", gameObject);
+
     }
 
     private void Update()
@@ -86,6 +89,7 @@ public class Mgr_Cooking : MonoBehaviour
             if(ingredientBoxes[i].OverlapPoint(mousePos))
             {
                 _heldIngredient = Instantiate(IngredientPrefab[i],transform.position, Quaternion.identity);
+                AkSoundEngine.PostEvent("playItemPickup", gameObject);
                 var adjustedPos = _heldIngredient.position;
                 adjustedPos.z -= ZOFFSET;
                 _heldIngredient.position=adjustedPos;
@@ -106,6 +110,7 @@ public class Mgr_Cooking : MonoBehaviour
         snapPos.x = Mathf.Clamp(_heldIngredient.position.x,cookingArea.bounds.min.x,cookingArea.bounds.max.z);
         
         _heldIngredient.position = snapPos;
+        AkSoundEngine.PostEvent("playItemPlace", gameObject);
         _usedIngredients.Add(_heldIngredient);
         
         if(_usedIngredients.Count==3){

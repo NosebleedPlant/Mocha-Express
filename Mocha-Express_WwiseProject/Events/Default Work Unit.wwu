@@ -175,6 +175,9 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{843368E1-ABC1-42B0-89D0-4C344C83072D}" ShortID="10242265">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="lowHealth" ID="{109C680B-1F67-493C-BF24-8E5780E5A109}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
@@ -211,6 +214,21 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="stingerSuccess" ID="{5ACAC714-71B1-4FC5-99EA-F60EEA01129A}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gameplayMusicStop" ID="{19C8B920-EED3-4E60-B066-1D4DCA5A69CF}">
+					<ChildrenList>
+						<Action Name="" ID="{3F7EB85C-50EB-48B8-B30C-B914832D8C2D}" ShortID="466167939">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main" ID="{FA8B0428-F4CE-4946-B900-09FF3468BB10}" WorkUnitID="{A0511336-8C4A-49F1-BF51-9E030B6B11A6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

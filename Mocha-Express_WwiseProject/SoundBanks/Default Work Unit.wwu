@@ -30,6 +30,7 @@
 						<ObjectRef Name="menuMusic" ID="{E9F77240-031F-4702-B122-2EDDE904D93A}" WorkUnitID="{8679FD29-B183-414F-B0B1-17D4C5B660B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="gameplayMusic" ID="{D8CA1F02-49D9-4801-9B8E-A3F52A454AD6}" WorkUnitID="{8679FD29-B183-414F-B0B1-17D4C5B660B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="musicMute" ID="{9530284D-5210-4DBF-84A8-7CEA290ABB1B}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="gameplayMusicStop" ID="{19C8B920-EED3-4E60-B066-1D4DCA5A69CF}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

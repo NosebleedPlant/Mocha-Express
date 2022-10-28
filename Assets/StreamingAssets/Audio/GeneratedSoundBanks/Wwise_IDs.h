@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID GAMEPLAYMUSIC = 2275179450U;
+        static const AkUniqueID GAMEPLAYMUSICSTOP = 545868898U;
         static const AkUniqueID MAPLOADED = 3246529682U;
         static const AkUniqueID MENUMUSIC = 679636833U;
         static const AkUniqueID MUSICMUTE = 153626945U;
@@ -43,7 +44,6 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID ALIVE = 655265632U;
-                static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID UNALIVE = 1999921723U;
             } // namespace STATE
         } // namespace PLAYERLIFE

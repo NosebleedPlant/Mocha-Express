@@ -788,8 +788,24 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>33</Value>
+												<Value>39</Value>
 											</ValueList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>7.1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2615DD8C-91C5-463E-881C-83F80A4CFB48}">
+														<PropertyList>
+															<Property Name="Min" Type="Real64" Value="-53.7"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -803,9 +819,12 @@
 									<ChildrenList>
 										<AudioFileSource Name="foodReady" ID="{E9F5CDA4-F158-4427-85EF-0ADD8C02C810}">
 											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.136518110021786"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.832933278867103"/>
 												<Property Name="VolumeOffset" Type="Real64">
 													<ValueList>
-														<Value>3.6</Value>
+														<Value>5.4</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -842,6 +861,11 @@
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.102628285356696"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.315394242803505"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>itemPickup.wav</AudioFile>
@@ -869,6 +893,11 @@
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.100125156445557"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.240926157697121"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>itemPlace.wav</AudioFile>
@@ -926,7 +955,7 @@
 												<CustomState Name="" ID="{88688C1C-96E8-4146-821E-164A049278A4}" ShortID="389120102">
 													<PropertyList>
 														<Property Name="Lowpass" Type="int16" Value="100"/>
-														<Property Name="Volume" Type="Real64" Value="-96.3"/>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
 													</PropertyList>
 												</CustomState>
 											</CustomState>

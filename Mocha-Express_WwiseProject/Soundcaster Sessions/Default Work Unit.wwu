@@ -6,21 +6,83 @@
 				<SoundcasterSession Name="Main" ID="{DFC2906D-AA02-4735-ADF2-1BA08E41ACD6}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Gameplay" ID="{495E5078-3571-4FBD-BE5D-DDCB72CE56D4}" WorkUnitID="{A0511336-8C4A-49F1-BF51-9E030B6B11A6}"/>
+							<ObjectRef Name="gameplayMusic" ID="{D8CA1F02-49D9-4801-9B8E-A3F52A454AD6}" WorkUnitID="{8679FD29-B183-414F-B0B1-17D4C5B660B4}"/>
 							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="playFoodReady" ID="{C522646B-5D95-4EEC-9F64-43A558AF5BF7}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfxMute" ID="{F8C89392-C9D8-42A1-A158-26B1AB5E7FFE}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="playItemPlace" ID="{854F9D7D-5ED8-4D13-96E3-D377579F3176}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="playItemPickup" ID="{34844592-BD47-432C-BDA5-6394D7451D1C}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfxUnmute" ID="{00E242D8-4EC2-4DED-A025-B79AC38C2DE3}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="gameplayMusicStop" ID="{19C8B920-EED3-4E60-B066-1D4DCA5A69CF}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="playShoot" ID="{4C8EED8C-171E-4692-AD24-F19BAA2E8AB1}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="playCooking" ID="{DEEE6127-11E1-4B73-8CBF-3B2D697CADC1}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="playMeowNormal" ID="{A5E102A8-C302-425E-AA9B-58871431ED0A}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="mapLoaded" ID="{1AF9CE0B-EADA-4DFB-A77B-966FAB7BB6CF}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="playMeowDeep" ID="{FDC947BF-8125-49F9-8BA1-FE0E6E64AE2A}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="musicMute" ID="{9530284D-5210-4DBF-84A8-7CEA290ABB1B}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="musicUnmute" ID="{2AF8ECD1-7E2F-41C9-AEF9-5DC215AAF5E4}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="playStingerFailed" ID="{F86F01C7-2F6B-4A5D-9965-970CA3B24E2D}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="playStingerSuccess" ID="{CE19A425-AE7F-497E-B4FD-E67FA353229E}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="4" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="PlayerHealth" ID="{6B445CE5-44F8-42FD-AF2F-32DE44F94832}"/>
-							<Value>18</Value>
+							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Alive" ID="{411C1209-5303-4C34-BCC4-CD895A350D77}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Boil" ID="{FCC1FCE0-5B1B-4CD3-B187-F060C6DEB093}"/>
+						<CurrentSwitchRef Name="Mix" ID="{2F5706FE-0B42-4292-9557-17F6A6D9846E}"/>
 						<CurrentSwitchRef Name="Canned" ID="{F9993C4E-A12E-4705-9C93-822A4E42E583}"/>
-						<CurrentSwitchRef Name="LowHealth" ID="{60C64FF3-12DF-4333-8698-F40E1D1EB7C1}"/>
+						<CurrentSwitchRef Name="Healthy" ID="{8007D4B2-B9EA-4F8A-86A2-0C1057DEC87C}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

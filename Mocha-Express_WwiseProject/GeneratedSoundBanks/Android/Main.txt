@@ -32,7 +32,6 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	655265632	Alive	PlayerLife			
-	748895195	None	PlayerLife			
 	1999921723	Unalive	PlayerLife			
 
 Custom State	ID	Name	State Group	Owner		Notes
@@ -56,7 +55,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	552031213	itemPickup	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\itemPickup_3DE78051.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\itemPickup		1252
 	573760164	menuClick	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\menuClick_81E8916E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Menu\menuClick		794
 	804147299	lowHealth	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\lowHealth_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\WorkArea\lowHealth		34525
-	838599348	foodReady	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\foodReady_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\foodReady		20113
+	838599348	foodReady	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\foodReady_D7FD75D3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\foodReady		10004
 	855061033	shootVenusianJane	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\shootVenusianJane_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Towers\Shoot\shootVenusianJane		22776
 	883824443	stingerFailed	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\stingerFailed_1EBE1D4D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Stingers\stingerFailed		48128
 	888557458	maoJamar2	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\maoJamar2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowNormal\maoJamar2		8381

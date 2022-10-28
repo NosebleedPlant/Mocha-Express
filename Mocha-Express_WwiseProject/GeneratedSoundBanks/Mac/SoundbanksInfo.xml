@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{53676494-AC9A-DEEB-0996-7327DE7C3EDB}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B20A4C1B-E4DC-CA56-3852-C1FC01EE94FD}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -59,7 +59,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{7BEA81E5-7C7E-AD78-C7AD-D80CBBA5E2F2}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{04584947-C8CE-E77C-C06F-A56E482DB3D8}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -121,7 +121,7 @@
 				</File>
 				<File Id="838599348" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>foodReady.wav</ShortName>
-					<CachePath>SFX/foodReady_10C4C929.wem</CachePath>
+					<CachePath>SFX/foodReady_85619206.wem</CachePath>
 				</File>
 				<File Id="855061033" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>shootVenusianJane.wav</ShortName>
@@ -176,7 +176,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3266981704" Name="playFoodReady" DurationType="OneShot" DurationMin="1.586375" DurationMax="1.586375">
+				<Event Id="3266981704" Name="playFoodReady" DurationType="OneShot" DurationMin="0.8329333" DurationMax="0.8329333">
 					<MediaRefs>
 						<MediaRef Id="838599348"/>
 					</MediaRefs>
@@ -275,7 +275,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{533E5C1B-E2E2-882D-BFA9-1CB818E5F3D9}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{B58BE69B-3D64-6C59-A841-2AA42E0B7FE3}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -299,6 +299,7 @@
 						<MediaRef Id="748749876"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="545868898" Name="gameplayMusicStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="679636833" Name="menuMusic" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="313598606"/>
@@ -321,5 +322,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{26963C4A-1DA5-9DD2-D61D-356574E20E27}</FileHash>
+	<FileHash>{03039E10-CDD5-2029-006B-1BF582247019}</FileHash>
 </SoundBanksInfo>
