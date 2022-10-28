@@ -59,7 +59,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{38A9D6BB-E1CF-3221-96A5-9A05D7DD9052}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E61A99B6-BD24-F8FE-179A-19CE47F9DB78}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -129,7 +129,7 @@
 				</File>
 				<File Id="883824443" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>stingerFailed.wav</ShortName>
-					<CachePath>SFX/stingerFailed_DA5C17A6.wem</CachePath>
+					<CachePath>SFX/stingerFailed_1EBE1D4D.wem</CachePath>
 				</File>
 				<File Id="888557458" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>maoJamar2.wav</ShortName>
@@ -275,7 +275,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{95C5D3DF-16E9-2F59-934C-000211736F10}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{FCAF85C3-4D2C-2049-CC1D-FF26FBE22379}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -321,5 +321,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{77B28062-4314-EA41-CA10-966045AF2C58}</FileHash>
+	<FileHash>{2B361D2D-07B8-2F63-541B-16DF8F10EACB}</FileHash>
 </SoundBanksInfo>
