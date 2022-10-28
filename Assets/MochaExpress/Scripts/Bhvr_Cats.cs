@@ -70,6 +70,7 @@ public class Bhvr_Cats : MonoBehaviour
         {
             if(health<=0)
             {
+                //JTC Cat dies
                 GameObject.Destroy(transform.gameObject);
             }
             else if(_isAttacking) 
