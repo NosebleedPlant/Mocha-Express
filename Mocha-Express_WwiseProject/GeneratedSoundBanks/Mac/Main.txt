@@ -4,10 +4,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	1262020357	playCooking			\Default Work Unit\playCooking	
 	1264305561	sfxMute			\Default Work Unit\sfxMute	
 	1489638472	playShoot			\Default Work Unit\playShoot	
+	2410273024	playStingerFailed			\Default Work Unit\playStingerFailed	
 	2928832990	playPurr			\Default Work Unit\playPurr	
 	3246529682	mapLoaded			\Default Work Unit\mapLoaded	
 	3249829222	playMeowNormal			\Default Work Unit\playMeowNormal	
 	3266981704	playFoodReady			\Default Work Unit\playFoodReady	
+	3597360652	playStingerSuccess			\Default Work Unit\playStingerSuccess	
 	3776118347	playItemPlace			\Default Work Unit\playItemPlace	
 	3838137654	playMenuClick			\Default Work Unit\playMenuClick	
 	4016420606	playItemPickup			\Default Work Unit\playItemPickup	
@@ -47,6 +49,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	284279740	sadHighMeowYalmaz	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\sadHighMeowYalmaz_6F707001.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowNormal\sadHighMeowYalmaz		172584
 	325764874	purrLoopJamar	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\purrLoopJamar_84491C37.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\purrLoopJamar		228188
 	415549626	deepMeowJamar1	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\deepMeowJamar1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowDeep\deepMeowJamar1		228324
+	423263521	stingerSuccess	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\stingerSuccess_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Stingers\stingerSuccess		576096
 	499174852	sadMeowYalmaz	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\sadMeowYalmaz_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowNormal\sadMeowYalmaz		201588
 	524709828	menuSelect	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\menuSelect_4BAA41E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Menu\menuSelect		176116
 	529155353	shootPlanetX	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\shootPlanetX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Towers\Shoot\shootPlanetX		288096
@@ -55,6 +58,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	804147299	lowHealth	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\lowHealth_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\WorkArea\lowHealth		768096
 	838599348	foodReady	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\foodReady_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\foodReady		304680
 	855061033	shootVenusianJane	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\shootVenusianJane_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Towers\Shoot\shootVenusianJane		384096
+	883824443	stingerFailed	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\stingerFailed_ACAA5B7D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Stingers\stingerFailed		670204
 	888557458	maoJamar2	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\maoJamar2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowNormal\maoJamar2		144956
 	1036578900	maoJamar1	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\maoJamar1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowNormal\maoJamar1		147004
 	1038210954	mixFood	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Mac\SFX\mixFood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\Cooking\mixFood		227984
