@@ -5,6 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - Tower
+  - Bullet
+  - WorkArea
+  - Berries
+  - Lantern
+  - Egg
+  - Tuna
+  - Chilies
+  - Harvest
+  - Mystery
+  - Special Tuna
   layers:
   - Default
   - TransparentFX

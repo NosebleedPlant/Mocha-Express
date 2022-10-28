@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2949268188096215666}
   - component: {fileID: 2949268188096215662}
   - component: {fileID: 2949268188096215663}
+  - component: {fileID: 7649208411832177907}
   m_Layer: 0
   m_Name: Cat
   m_TagString: Untagged
@@ -146,8 +147,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b1667f5fd4d53343ae540a9abbf727a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  damage: 0
+  health: 1
+  damage: 1
   speed: 20
-  deviation: 0
+  timeBetweenAttacks: 1
   _targetTransform: {fileID: 0}
+  _workArea: {fileID: 0}
+  _gameManager: {fileID: 0}
+--- !u!114 &7649208411832177907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2949268188096215667}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05670fc4aa335a84595c0086878a6f6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
