@@ -21,8 +21,8 @@ public class Bhvr_Tower : MonoBehaviour
     #region //////Fields//////
         [SerializeField, Tooltip("list of bullet prefab")]
         private List<GameObject> ammoPrefabs = new List<GameObject>();
-        [SerializeField, Tooltip("Reticle asset to show where tower is currently aiming")]
-        private Transform reticle;
+        [SerializeField, Tooltip("Transform of the _Dynamic object so scene is clean at runtime")]
+        private Transform dynamicParent;
         
         [field: SerializeField, Tooltip("enum of ammo types")]
         private Ammo _ammoType = new Ammo();
@@ -31,6 +31,7 @@ public class Bhvr_Tower : MonoBehaviour
         
         private List<Transform> _inRange = new List<Transform>();
         private List<float> timeBetweenShots = new List<float>();
+        private Transform _bulletSource;
     #endregion
 
     #region //////Properties//////
@@ -51,6 +52,7 @@ public class Bhvr_Tower : MonoBehaviour
     #region //////LifeCycle//////
         private void Awake()
         {
+            _bulletSource=  transform.GetChild(0);
             for(int i=0;i<ammoPrefabs.Count;i++)
             {
                 timeBetweenShots.Add(ammoPrefabs[i].GetComponent<Bhvr_Bullet>().timeBetweenShots);
@@ -81,7 +83,7 @@ public class Bhvr_Tower : MonoBehaviour
                 Vector3 dir = _inRange[0].position - transform.position;
                 float angle = Vector3.SignedAngle(transform.up,dir,Vector3.back);
                 GameObject spawnedBullet = Instantiate(
-                    ammoPrefabs[(int)ammoType],transform.position,
+                    ammoPrefabs[(int)ammoType],_bulletSource.position,
                     Quaternion.AngleAxis(angle,Vector3.back));
                 ammoCount--;
             }
@@ -112,12 +114,4 @@ public class Bhvr_Tower : MonoBehaviour
                 break;
         }
     }
-
-    #region //////EditorScript//////
-        private void OnDrawGizmos()
-        {
-            //Debuging command to visualzie area 
-            Gizmos.DrawWireSphere(transform.position,gameObject.GetComponent<CircleCollider2D>().radius);
-        }
-    #endregion
 }

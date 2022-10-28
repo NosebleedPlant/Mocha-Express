@@ -12,6 +12,9 @@ TagManager:
   - Egg
   - Tuna
   - Chilies
+  - Harvest
+  - Mystery
+  - Special Tuna
   layers:
   - Default
   - TransparentFX
