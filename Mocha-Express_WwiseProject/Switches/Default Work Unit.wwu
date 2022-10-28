@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{90AF63C9-601A-470E-9305-E12B796FC6A3}" SchemaVersion="110">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{90AF63C9-601A-470E-9305-E12B796FC6A3}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{90AF63C9-601A-470E-9305-E12B796FC6A3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="PlateAmmo" ID="{5D9C97E1-DCF2-46BC-9BEC-4A7582AF0113}">
+					<ChildrenList>
+						<Switch Name="Venusian" ID="{713C9ED5-E8B1-4A05-B0D4-AABAE411DF2D}"/>
+						<Switch Name="Canned" ID="{F9993C4E-A12E-4705-9C93-822A4E42E583}"/>
+						<Switch Name="PlanetX" ID="{A17F8DC4-387E-4723-B1F8-32C5894CA496}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Cooking" ID="{C9EE3BEE-BAAE-446A-AD28-FF4307220EA3}">
+					<ChildrenList>
+						<Switch Name="Boil" ID="{FCC1FCE0-5B1B-4CD3-B187-F060C6DEB093}"/>
+						<Switch Name="Fry" ID="{E3FE5E22-A2D2-421B-81F3-60880BD7F7E3}"/>
+						<Switch Name="Mix" ID="{2F5706FE-0B42-4292-9557-17F6A6D9846E}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8AA834EF-8DFF-4A91-B9DD-C8231CDAE592}" SchemaVersion="110">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{8AA834EF-8DFF-4A91-B9DD-C8231CDAE592}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8AA834EF-8DFF-4A91-B9DD-C8231CDAE592}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="PlayerLife" ID="{3FD177D7-2099-472C-BEBE-EEE12F31CA18}">
+					<ChildrenList>
+						<State Name="None" ID="{715AEC50-48C7-4036-9BC4-89F84BB949BB}"/>
+						<State Name="Alive" ID="{411C1209-5303-4C34-BCC4-CD895A350D77}"/>
+						<State Name="Unalive" ID="{9223DBC3-DEA6-464E-AEC5-96FD0D194F24}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Alive" ID="{411C1209-5303-4C34-BCC4-CD895A350D77}"/>
+							<EndState Name="Unalive" ID="{9223DBC3-DEA6-464E-AEC5-96FD0D194F24}"/>
+							<Time>3</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

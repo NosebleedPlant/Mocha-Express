@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{15EE9B50-1F68-4829-870D-07944003FC85}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{15EE9B50-1F68-4829-870D-07944003FC85}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{15EE9B50-1F68-4829-870D-07944003FC85}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Main" ID="{DFC2906D-AA02-4735-ADF2-1BA08E41ACD6}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Gameplay" ID="{495E5078-3571-4FBD-BE5D-DDCB72CE56D4}" WorkUnitID="{A0511336-8C4A-49F1-BF51-9E030B6B11A6}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="PlayerHealth" ID="{6B445CE5-44F8-42FD-AF2F-32DE44F94832}"/>
+							<Value>18</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Boil" ID="{FCC1FCE0-5B1B-4CD3-B187-F060C6DEB093}"/>
+						<CurrentSwitchRef Name="Canned" ID="{F9993C4E-A12E-4705-9C93-822A4E42E583}"/>
+						<CurrentSwitchRef Name="LowHealth" ID="{60C64FF3-12DF-4333-8698-F40E1D1EB7C1}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
