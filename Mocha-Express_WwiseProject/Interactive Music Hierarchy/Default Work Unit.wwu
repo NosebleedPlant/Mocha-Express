@@ -17,18 +17,14 @@
 							<ChildrenList>
 								<MusicSegment Name="Gameplay" ID="{495E5078-3571-4FBD-BE5D-DDCB72CE56D4}" ShortID="613001541">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="24303.8125"/>
+										<Property Name="EndPosition" Type="Real64" Value="95003.7971252287"/>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
 												<Value>3</Value>
 											</ValueList>
 										</Property>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 										<Property Name="Tempo" Type="Real64" Value="158"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-9</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -39,26 +35,70 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="Gameplay" ID="{5C827A1C-FA7A-4A43-94B4-1B3C12F3F4D6}" ShortID="68017268">
+										<MusicTrack Name="GameplayNormal" ID="{E94D77DA-DB7C-4461-B5ED-ACB31489D892}" ShortID="293080581">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="3"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="Healthy" ID="{8007D4B2-B9EA-4F8A-86A2-0C1057DEC87C}" WorkUnitID="{1422EDE2-BA0C-42EC-9160-35B660BBB910}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
 												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="HealthStatus" ID="{30D0000C-C79A-4EC4-869B-1F23A986DC21}" WorkUnitID="{1422EDE2-BA0C-42EC-9160-35B660BBB910}"/>
+												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Gameplay" ID="{E97C501F-1335-4094-826D-9244333483A5}">
+												<AudioFileSource Name="GameplayNormal" ID="{F41BF87A-C904-4962-95D4-D26360897F4F}">
 													<Language>SFX</Language>
-													<AudioFile>Gameplay.wav</AudioFile>
+													<AudioFile>GameplayNormal.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="749328983"/>
+														<MediaID ID="331465606"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="GameplayDanger" ID="{421E0DAB-1A61-4409-B7C5-5F30BF985DD3}">
+													<Language>SFX</Language>
+													<AudioFile>GameplayDanger.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="748749876"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{7EB9DEFC-3FC7-4131-9AA3-50ABC339015E}">
+												<MusicTransition Name="Root" ID="{9884F921-DBCE-4C85-A0B2-06BDE53BBFD4}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{5E25CC14-030F-447A-9AD2-B4218F5E6203}">
+															<PropertyList>
+																<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+																<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+																<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+															</PropertyList>
+															<TransitionInfo>
+																<SourceFadeOut>
+																	<MusicFade Name="Source Fade-out" ID="{A3D77A0B-4379-4F21-80DD-A8F7B8CE4E13}">
+																		<PropertyList>
+																			<Property Name="FadeOffset" Type="Real64" Value="0.3"/>
+																			<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+																			<Property Name="FadeType" Type="int16" Value="1"/>
+																		</PropertyList>
+																	</MusicFade>
+																</SourceFadeOut>
+																<DestinationFadeIn>
+																	<MusicFade Name="Destination Fade-in" ID="{CDAB9F46-D09F-4214-86A1-00F2A5359D2C}">
+																		<PropertyList>
+																			<Property Name="FadeOffset" Type="Real64" Value="-0.3"/>
+																			<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+																		</PropertyList>
+																	</MusicFade>
+																</DestinationFadeIn>
+															</TransitionInfo>
+														</MusicTransition>
+													</ChildrenList>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -66,24 +106,84 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{E8430ECB-9FDA-4405-B3E6-C44AB2578CF4}">
+															<MusicTrackSequence Name="" ID="{B5A75B76-8595-4CC1-8457-B6318A0ED4BA}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Gameplay" ID="{0011C584-F09C-47C6-A3DE-AF9A0B397E96}">
+																				<MusicClip Name="GameplayNormal" ID="{F3820307-2174-4017-AFAD-A23357FF0B1E}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="24303.8125"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="74430.3958333333"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="759.493670886076"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Gameplay" ID="{E97C501F-1335-4094-826D-9244333483A5}"/>
+																					<AudioSourceRef Name="GameplayNormal" ID="{F41BF87A-C904-4962-95D4-D26360897F4F}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
 																	</ObjectList>
 																</ObjectLists>
+																<ReferenceList>
+																	<Reference Name="TrackSequenceSwitch">
+																		<ObjectRef Name="Healthy" ID="{8007D4B2-B9EA-4F8A-86A2-0C1057DEC87C}" WorkUnitID="{1422EDE2-BA0C-42EC-9160-35B660BBB910}"/>
+																	</Reference>
+																</ReferenceList>
 															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{AC0117DB-DBF1-457C-9FF1-5256A6137258}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="GameplayDanger" ID="{CDCE51BF-D094-432B-8BC6-99A647B9C1BB}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="74430.3958333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="759.493670886076"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="GameplayDanger" ID="{421E0DAB-1A61-4409-B7C5-5F30BF985DD3}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{F6073527-FBE8-4997-919E-873E18CE5283}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>-1.4711</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>74.4303958333333</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+																<ReferenceList>
+																	<Reference Name="TrackSequenceSwitch">
+																		<ObjectRef Name="LowHealth" ID="{60C64FF3-12DF-4333-8698-F40E1D1EB7C1}" WorkUnitID="{1422EDE2-BA0C-42EC-9160-35B660BBB910}"/>
+																	</Reference>
+																</ReferenceList>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{77A66F56-DE42-4113-9B37-ECC5A145D2C8}"/>
 														</Local>
 													</Reference>
 												</ObjectList>
@@ -94,7 +194,11 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{6CB44DC1-8935-4E83-AD73-B72969C64F31}"/>
+													<MusicCue Name="Entry Cue" ID="{6CB44DC1-8935-4E83-AD73-B72969C64F31}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="2278.48101265823"/>
+														</PropertyList>
+													</MusicCue>
 												</Local>
 											</Reference>
 											<Reference>
@@ -102,7 +206,7 @@
 													<MusicCue Name="Exit Cue" ID="{B18E9D85-8B75-4520-BC77-D2BB86C97D10}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="24303.8125"/>
+															<Property Name="TimeMs" Type="Real64" Value="75189.8734177216"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -116,8 +220,10 @@
 									<PropertyList>
 										<Property Name="IsFolder" Type="bool" Value="True"/>
 									</PropertyList>
+									<ReferenceList/>
 									<ChildrenList>
 										<MusicTransition Name="Transition" ID="{C3AFFD20-417A-4962-9BF1-D5F8BA8A62F4}">
+											<ReferenceList/>
 											<TransitionInfo/>
 										</MusicTransition>
 									</ChildrenList>
@@ -129,6 +235,14 @@
 									<PropertyList>
 										<Property Name="LoopCount" Type="int16" Value="0"/>
 									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{915A112D-6B4B-4DA3-A481-0E313E4E9263}" ShortID="688535525">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Gameplay" ID="{495E5078-3571-4FBD-BE5D-DDCB72CE56D4}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
@@ -247,6 +361,14 @@
 									<PropertyList>
 										<Property Name="LoopCount" Type="int16" Value="0"/>
 									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{2CD41935-A3C4-467B-9852-3E63891D8F4E}" ShortID="62111843">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="MenuTrack_153BPM_34BL" ID="{FD51CD4C-34D3-4AFA-A8B5-079E53EA86DC}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>

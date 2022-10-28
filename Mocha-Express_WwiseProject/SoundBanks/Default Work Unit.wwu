@@ -5,19 +5,29 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{4E1D28B4-A3D1-4AD6-B915-B8B27631991F}">
 					<ObjectInclusionList>
-						<ObjectRef Name="musicUnmute" ID="{2AF8ECD1-7E2F-41C9-AEF9-5DC215AAF5E4}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playMeowNormal" ID="{A5E102A8-C302-425E-AA9B-58871431ED0A}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfxMute" ID="{F8C89392-C9D8-42A1-A158-26B1AB5E7FFE}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playItemPickup" ID="{34844592-BD47-432C-BDA5-6394D7451D1C}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playShoot" ID="{4C8EED8C-171E-4692-AD24-F19BAA2E8AB1}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playMenuSelect" ID="{405930E8-98C5-48E5-9E63-80BECFAE95DE}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="playPurr" ID="{705CEC72-378B-48FB-A312-BBEEBA2A063B}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playMeowDeep" ID="{FDC947BF-8125-49F9-8BA1-FE0E6E64AE2A}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playMenuClick" ID="{A1515AED-D217-4B45-8B09-50EAA2AEEDB6}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playCooking" ID="{DEEE6127-11E1-4B73-8CBF-3B2D697CADC1}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playItemPlace" ID="{854F9D7D-5ED8-4D13-96E3-D377579F3176}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="musicMute" ID="{9530284D-5210-4DBF-84A8-7CEA290ABB1B}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfxUnmute" ID="{00E242D8-4EC2-4DED-A025-B79AC38C2DE3}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="mapLoaded" ID="{1AF9CE0B-EADA-4DFB-A77B-966FAB7BB6CF}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playFoodReady" ID="{C522646B-5D95-4EEC-9F64-43A558AF5BF7}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{FCC7D716-7140-4BA0-9246-ADAB64EE9480}">
+					<ObjectInclusionList>
+						<ObjectRef Name="musicUnmute" ID="{2AF8ECD1-7E2F-41C9-AEF9-5DC215AAF5E4}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="menuMusic" ID="{E9F77240-031F-4702-B122-2EDDE904D93A}" WorkUnitID="{8679FD29-B183-414F-B0B1-17D4C5B660B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="gameplayMusic" ID="{D8CA1F02-49D9-4801-9B8E-A3F52A454AD6}" WorkUnitID="{8679FD29-B183-414F-B0B1-17D4C5B660B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="musicMute" ID="{9530284D-5210-4DBF-84A8-7CEA290ABB1B}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

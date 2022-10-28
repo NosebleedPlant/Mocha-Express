@@ -1,3 +1,10 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3112308633	HealthStatus			\Music\HealthStatus	
+
+Switch	ID	Name	Switch Group			Notes
+	1017222595	LowHealth	HealthStatus			
+	2874639328	Healthy	HealthStatus			
+
 State Group	ID	Name			Wwise Object Path	Notes
 	444815956	PlayerLife			\Default Work Unit\PlayerLife	
 

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{67B13C07-826F-3329-3EE7-78B457D98E14}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6F5A4039-DA2F-66A8-4644-EB24DA562FB3}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -50,27 +50,16 @@
 						<Switch Id="1660835247" Name="Boil"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="3112308633" Name="HealthStatus">
+					<GameParameterRef Id="151362964"/>
+					<Switches>
+						<Switch Id="1017222595" Name="LowHealth"/>
+						<Switch Id="2874639328" Name="Healthy"/>
+					</Switches>
+				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2928832990" Type="Event" Language="SFX" Hash="{2036C80E-A710-4A39-C460-C71FF2118BB5}">
-			<ShortName>playPurr</ShortName>
-			<Path>Event/playPurr.bnk</Path>
-			<Media>
-				<File Id="325764874" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>purrLoopJamar.wav</ShortName>
-					<Path>Media/325764874.wem</Path>
-					<CachePath>SFX/purrLoopJamar_21A7C782.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="2928832990" Name="playPurr" DurationType="OneShot" DurationMin="1.1879697" DurationMax="1.1879697">
-					<MediaRefs>
-						<MediaRef Id="325764874"/>
-					</MediaRefs>
-				</Event>
-			</Events>
-		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C0245348-C0DA-0AE5-2EA2-92AB5E626ECB}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{458A8D3D-5B92-9B8F-9866-19358C8B0F41}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -93,6 +82,10 @@
 				<File Id="284279740" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sadHighMeowYalmaz.wav</ShortName>
 					<CachePath>SFX/sadHighMeowYalmaz_66E82751.wem</CachePath>
+				</File>
+				<File Id="325764874" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>purrLoopJamar.wav</ShortName>
+					<CachePath>SFX/purrLoopJamar_14EB5D87.wem</CachePath>
 				</File>
 				<File Id="415549626" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>deepMeowJamar1.wav</ShortName>
@@ -117,6 +110,10 @@
 				<File Id="573760164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>menuClick.wav</ShortName>
 					<CachePath>SFX/menuClick_81E8916E.wem</CachePath>
+				</File>
+				<File Id="804147299" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lowHealth.wav</ShortName>
+					<CachePath>SFX/lowHealth_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="838599348" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>foodReady.wav</ShortName>
@@ -144,8 +141,11 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="153626945" Name="musicMute" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2098179344" Name="musicUnmute" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3246529682" Name="mapLoaded" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="804147299"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1262020357" Name="playCooking" DurationType="OneShot" DurationMin="1.1869167" DurationMax="4.877125">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -199,12 +199,17 @@
 						<MediaRef Id="415549626"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3249829222" Name="playMeowNormal" DurationType="OneShot" DurationMin="0.7015184" DurationMax="1.1624078">
+				<Event Id="3249829222" Name="playMeowNormal" DurationType="OneShot" DurationMin="0.63637525" DurationMax="0.9951025">
 					<MediaRefs>
 						<MediaRef Id="284279740"/>
 						<MediaRef Id="499174852"/>
 						<MediaRef Id="888557458"/>
 						<MediaRef Id="1036578900"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2928832990" Name="playPurr" DurationType="OneShot" DurationMin="1.0419828" DurationMax="1.545062">
+					<MediaRefs>
+						<MediaRef Id="325764874"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1489638472" Name="playShoot" DurationType="OneShot" DurationMin="1" DurationMax="2">
@@ -232,6 +237,9 @@
 				<Event Id="1264305561" Name="sfxMute" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4069662840" Name="sfxUnmute" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="151362964" Name="PlayerHealth"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="1081040201" Name="PlateAmmo">
 					<Switches>
@@ -249,27 +257,51 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3246529682" Type="Event" Language="SFX" Hash="{D847E406-A54C-FEAF-0577-81B9F6591579}">
-			<ShortName>mapLoaded</ShortName>
-			<Path>Event/mapLoaded.bnk</Path>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{12F84B12-7290-1243-2721-B957BB01E1E0}">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
 			<Media>
-				<File Id="804147299" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>lowHealth.wav</ShortName>
-					<Path>Media/804147299.wem</Path>
-					<CachePath>SFX/lowHealth_9EDFC787.wem</CachePath>
+				<File Id="313598606" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MenuTrack_153BPM_34BL.wav</ShortName>
+					<CachePath>SFX/MenuTrack_153BPM_34BL_9EDFC787.wem</CachePath>
+				</File>
+				<File Id="331465606" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GameplayNormal.wav</ShortName>
+					<CachePath>SFX/GameplayNormal_9EDFC787.wem</CachePath>
+				</File>
+				<File Id="748749876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GameplayDanger.wav</ShortName>
+					<CachePath>SFX/GameplayDanger_9EDFC787.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3246529682" Name="mapLoaded" DurationType="Infinite">
+				<Event Id="2275179450" Name="gameplayMusic" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="804147299"/>
+						<MediaRef Id="331465606"/>
+						<MediaRef Id="748749876"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="679636833" Name="menuMusic" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="313598606"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="153626945" Name="musicMute" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2098179344" Name="musicUnmute" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="151362964" Name="PlayerHealth"/>
 			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3112308633" Name="HealthStatus">
+					<GameParameterRef Id="151362964"/>
+					<Switches>
+						<Switch Id="1017222595" Name="LowHealth"/>
+						<Switch Id="2874639328" Name="Healthy"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C75CEE43-E197-625A-8846-688CE456B7CC}</FileHash>
+	<FileHash>{C14E8385-0325-6A00-3BDD-888B1CB9C751}</FileHash>
 </SoundBanksInfo>

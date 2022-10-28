@@ -13,7 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID GAMEPLAYMUSIC = 2275179450U;
         static const AkUniqueID MAPLOADED = 3246529682U;
+        static const AkUniqueID MENUMUSIC = 679636833U;
         static const AkUniqueID MUSICMUTE = 153626945U;
         static const AkUniqueID MUSICUNMUTE = 2098179344U;
         static const AkUniqueID PLAYCOOKING = 1262020357U;
@@ -60,6 +62,17 @@ namespace AK
             } // namespace SWITCH
         } // namespace COOKING
 
+        namespace HEALTHSTATUS
+        {
+            static const AkUniqueID GROUP = 3112308633U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID HEALTHY = 2874639328U;
+                static const AkUniqueID LOWHEALTH = 1017222595U;
+            } // namespace SWITCH
+        } // namespace HEALTHSTATUS
+
         namespace PLATEAMMO
         {
             static const AkUniqueID GROUP = 1081040201U;
@@ -83,6 +96,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID MAIN = 3161908922U;
+        static const AkUniqueID MUSIC = 3991942870U;
     } // namespace BANKS
 
     namespace BUSSES
