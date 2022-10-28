@@ -7,6 +7,11 @@ TagManager:
   - Tower
   - Bullet
   - WorkArea
+  - Berries
+  - Lantern
+  - Egg
+  - Tuna
+  - Chilies
   layers:
   - Default
   - TransparentFX

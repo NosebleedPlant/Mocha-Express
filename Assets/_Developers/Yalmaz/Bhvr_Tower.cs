@@ -89,6 +89,30 @@ public class Bhvr_Tower : MonoBehaviour
         }
     }
 
+    public void UpdateAmmo(string meal)
+    {
+        switch(meal)
+        {
+            case "Special Tuna":
+                Debug.Log("Tuna");
+                ammoType = Ammo.Tuna;
+                ammoCount = 2;
+                break;
+            case "Harvest":
+                Debug.Log("Harvest");
+                ammoType = Ammo.Harvest;
+                ammoCount = 2;
+                break;
+            case "Mystery":
+                Debug.Log("Mystery");
+                ammoType = Ammo.Mystery;
+                ammoCount = 2;
+                break;
+            default:
+                break;
+        }
+    }
+
     #region //////EditorScript//////
         private void OnDrawGizmos()
         {
