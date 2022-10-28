@@ -12,6 +12,7 @@ public class Mgr_Input : MonoBehaviour
     private Collider2D mealCollider;
     public GameObject mealPrefab;
     private List<Transform> actve = new List<Transform>();
+    public List<Collider2D> towers = new List<Collider2D>();
 
     void Update()
     {
@@ -60,14 +61,26 @@ public class Mgr_Input : MonoBehaviour
                     foreach(Transform ing in actve){
                         GameObject.Destroy(ing.gameObject);
                     }
+                    actve.Clear();
                 }
                 activeIngredietn=null;
-                //JTC spawn food
             }
             else
             {
                 GameObject.Destroy(activeIngredietn.gameObject);
                 activeIngredietn=null;
+            }
+        }
+        if(Input.GetMouseButtonUp(0)&&meal!=null)
+        {
+            foreach(var tower in towers)
+            {
+                if(tower.OverlapPoint(mousePos))
+                {
+                    GameObject.Destroy(meal.gameObject);
+                    meal=null;
+                    //change the ammo type
+                }
             }
         }
     }
