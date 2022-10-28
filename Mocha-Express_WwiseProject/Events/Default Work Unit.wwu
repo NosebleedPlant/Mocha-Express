@@ -3,12 +3,232 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{56C9A761-618E-4780-9510-899E105C52AE}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Bolt" ID="{CC77D705-E08F-4337-B168-AFF35CF226F7}">
+				<Event Name="playCooking" ID="{DEEE6127-11E1-4B73-8CBF-3B2D697CADC1}">
 					<ChildrenList>
-						<Action Name="" ID="{90794A57-0363-4325-8BAD-865EE79FD0EA}" ShortID="613181718">
+						<Action Name="" ID="{D44CD014-49C6-4D68-9469-AA18A6245F31}" ShortID="527062549">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Bolt" ID="{84E2E62F-1583-4A99-AEDE-4E7B04B11292}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+									<ObjectRef Name="Cooking" ID="{82CFB49F-5FF6-4DD7-AA2D-C8CD28296C78}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playFoodReady" ID="{C522646B-5D95-4EEC-9F64-43A558AF5BF7}">
+					<ChildrenList>
+						<Action Name="" ID="{85B18B28-5575-4725-9224-9AAE1339FB00}" ShortID="431010962">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="foodReady" ID="{B7306718-2302-484D-BBFD-BE437C7758AE}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playItemPickup" ID="{34844592-BD47-432C-BDA5-6394D7451D1C}">
+					<ChildrenList>
+						<Action Name="" ID="{98869B84-E3CE-4D04-8DD9-EAA1B3102A83}" ShortID="316797436">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="itemPickup" ID="{E98C4B35-E2D7-4B6E-B891-F4E3E037A707}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playItemPlace" ID="{854F9D7D-5ED8-4D13-96E3-D377579F3176}">
+					<ChildrenList>
+						<Action Name="" ID="{6D13BF65-9FE5-43F3-A2B5-2C68D59E5E3D}" ShortID="575560">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="itemPlace" ID="{26E801EC-0FF2-4675-8C75-2A920535948E}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playMenuClick" ID="{A1515AED-D217-4B45-8B09-50EAA2AEEDB6}">
+					<ChildrenList>
+						<Action Name="" ID="{DBFBAA0C-9C32-48BD-8FD3-823E2C7BC0D5}" ShortID="967203729">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menuClick" ID="{DDEED859-C592-42DA-B100-9F94119124C5}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playMenuSelect" ID="{405930E8-98C5-48E5-9E63-80BECFAE95DE}">
+					<ChildrenList>
+						<Action Name="" ID="{85006345-8C77-4409-B852-00256CFBF272}" ShortID="341649861">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menuSelect" ID="{D0DCBACA-314F-4284-A3B3-B34A7434BFE7}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playShoot" ID="{4C8EED8C-171E-4692-AD24-F19BAA2E8AB1}">
+					<ChildrenList>
+						<Action Name="" ID="{CF81C9FB-3F5B-4527-85B1-364713660C62}" ShortID="1005184833">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shoot" ID="{0374229E-F7CB-44CB-B17C-E02FDB01657F}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfxMute" ID="{F8C89392-C9D8-42A1-A158-26B1AB5E7FFE}">
+					<ChildrenList>
+						<Action Name="" ID="{1A3B3A66-F954-46C1-BF3E-2D949F20BF92}" ShortID="616732217">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX" ID="{311C5CAC-CEC2-4B2C-A5D4-EA4340342114}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfxUnmute" ID="{00E242D8-4EC2-4DED-A025-B79AC38C2DE3}">
+					<ChildrenList>
+						<Action Name="" ID="{34DD4489-CB31-4E04-A1D4-F2102A7ED2CB}" ShortID="682079611">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX" ID="{311C5CAC-CEC2-4B2C-A5D4-EA4340342114}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="musicMute" ID="{9530284D-5210-4DBF-84A8-7CEA290ABB1B}">
+					<ChildrenList>
+						<Action Name="" ID="{11DC3D26-C0FF-413F-8448-45F7CA0EB42D}" ShortID="167451818">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{E6C0B216-0F7F-4A16-81BA-54B9548B13BE}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="musicUnmute" ID="{2AF8ECD1-7E2F-41C9-AEF9-5DC215AAF5E4}">
+					<ChildrenList>
+						<Action Name="" ID="{3961F05D-7635-45C5-B2D3-35FB1EB9AE08}" ShortID="395444067">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{E6C0B216-0F7F-4A16-81BA-54B9548B13BE}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playMeowNormal" ID="{A5E102A8-C302-425E-AA9B-58871431ED0A}">
+					<ChildrenList>
+						<Action Name="" ID="{941117AB-14D3-490A-BF27-15E8E5846B04}" ShortID="807895254">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="meowNormal" ID="{BF4E854C-9F08-4C4B-8B30-05C300DA4244}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playMeowDeep" ID="{FDC947BF-8125-49F9-8BA1-FE0E6E64AE2A}">
+					<ChildrenList>
+						<Action Name="" ID="{A106F18B-F2A0-46C1-B063-392CA6ECE628}" ShortID="47063010">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="meowDeep" ID="{486DBA57-626C-4A10-9075-FD88427C1803}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mapLoaded" ID="{1AF9CE0B-EADA-4DFB-A77B-966FAB7BB6CF}">
+					<ChildrenList>
+						<Action Name="" ID="{A91D3166-BD09-4B88-98F4-059DE2C424D3}" ShortID="331175309">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="lowHealth" ID="{109C680B-1F67-493C-BF24-8E5780E5A109}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{843368E1-ABC1-42B0-89D0-4C344C83072D}" ShortID="10242265">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="lowHealth" ID="{109C680B-1F67-493C-BF24-8E5780E5A109}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playPurr" ID="{705CEC72-378B-48FB-A312-BBEEBA2A063B}">
+					<ChildrenList>
+						<Action Name="" ID="{5D9CC134-6F9D-4339-84E4-B5D98E1F6B9C}" ShortID="214906707">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="purrLoopJamar" ID="{E34A622F-20AA-4EA0-A250-96E4058E707C}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playStingerFailed" ID="{F86F01C7-2F6B-4A5D-9965-970CA3B24E2D}">
+					<ChildrenList>
+						<Action Name="" ID="{6E57375A-0B9F-43A4-B3B2-BDFA74A35229}" ShortID="390385885">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stingerFailed" ID="{9C50D8D4-AB89-44F5-B308-84D978923AAF}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playStingerSuccess" ID="{CE19A425-AE7F-497E-B4FD-E67FA353229E}">
+					<ChildrenList>
+						<Action Name="" ID="{D46F888C-3F89-4E63-95F2-5192573C2E12}" ShortID="1021235534">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stingerSuccess" ID="{5ACAC714-71B1-4FC5-99EA-F60EEA01129A}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gameplayMusicStop" ID="{19C8B920-EED3-4E60-B066-1D4DCA5A69CF}">
+					<ChildrenList>
+						<Action Name="" ID="{3F7EB85C-50EB-48B8-B30C-B914832D8C2D}" ShortID="466167939">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main" ID="{FA8B0428-F4CE-4946-B900-09FF3468BB10}" WorkUnitID="{A0511336-8C4A-49F1-BF51-9E030B6B11A6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
