@@ -154,7 +154,7 @@ public class Mgr_Cooking : MonoBehaviour
         spawnpos.z = _heldIngredient.position.z;
 
         CleanCookingArea();
-        //JTC Food Completeion sound here!
+        AkSoundEngine.PostEvent("playFoodReady", gameObject);
         return Instantiate<Collider2D>(mealPrefab[recipie],spawnpos,Quaternion.identity);
     }
 

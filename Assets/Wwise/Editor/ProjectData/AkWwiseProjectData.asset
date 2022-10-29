@@ -11,7 +11,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1dbcf1774cb74d2409baa63396aa0320, type: 3}
   m_Name: AkWwiseProjectData
-  m_EditorClassIdentifier:
+  m_EditorClassIdentifier: 
   AcousticTextureWwu:
   - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
@@ -23,8 +23,8 @@ MonoBehaviour:
       guid: 7471b55ddd420c47bb5f521c9ffa2130
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 7471b55ddd420c47bb5f521c9ffa2130
-    GuidInternal:
-    m_lastTime: -8585348803203544762
+    GuidInternal: 
+    m_lastTime: -8585348788635949194
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -37,8 +37,8 @@ MonoBehaviour:
       guid: eee5af196b045441955801f646d5b008
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: eee5af196b045441955801f646d5b008
-    GuidInternal:
-    m_lastTime: -8585346062720870355
+    GuidInternal: 
+    m_lastTime: -8585346124076394465
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -99,8 +99,8 @@ MonoBehaviour:
       guid: ccef9e29bc609242a30cc1984562c6c6
     ParentPath: SoundBanks\Default Work Unit
     guid: ccef9e29bc609242a30cc1984562c6c6
-    GuidInternal:
-    m_lastTime: -8585346062715300364
+    GuidInternal: 
+    m_lastTime: -8585346091306032623
     List:
     - name: Main
       guid: b4281d4ed1a3d64ab915b8b27631991f
@@ -141,7 +141,7 @@ MonoBehaviour:
       guid: 61a7c9568e6180479510899e105c52ae
     ParentPath: Events\Default Work Unit
     guid: 61a7c9568e6180479510899e105c52ae
-    GuidInternal:
+    GuidInternal: 
     m_lastTime: -8585346050006380167
     List:
     - name: gameplayMusicStop
@@ -477,8 +477,8 @@ MonoBehaviour:
       guid: 29fd798683b14f41b0b117d4c5b660b4
     ParentPath: Events\Music
     guid: 29fd798683b14f41b0b117d4c5b660b4
-    GuidInternal:
-    m_lastTime: -8585346062727620348
+    GuidInternal: 
+    m_lastTime: -8585346153139642335
     List:
     - name: gameplayMusic
       guid: 021fcad8d94901489b8ea3f52a454ad6
@@ -525,8 +525,8 @@ MonoBehaviour:
       guid: b41b6e59645d5147966d11a6e5a57e86
     ParentPath: Game Parameters\Default Work Unit
     guid: b41b6e59645d5147966d11a6e5a57e86
-    GuidInternal:
-    m_lastTime: -8585346062727620348
+    GuidInternal: 
+    m_lastTime: -8585346153139632391
     List:
     - name: PlayerHealth
       guid: e55c446bf844fd42af2f32de44f94832
@@ -553,7 +553,7 @@ MonoBehaviour:
       guid: ef34a88aff8d914ab9ddc8231cdae592
     ParentPath: States\Default Work Unit
     guid: ef34a88aff8d914ab9ddc8231cdae592
-    GuidInternal:
+    GuidInternal: 
     m_lastTime: -8585346050006360178
     List:
     - name: PlayerLife
@@ -633,8 +633,8 @@ MonoBehaviour:
       guid: c963af901a600e479305e12b796fc6a3
     ParentPath: Switches\Default Work Unit
     guid: c963af901a600e479305e12b796fc6a3
-    GuidInternal:
-    m_lastTime: -8585346062715280355
+    GuidInternal: 
+    m_lastTime: -8585346153125393063
     List:
     - name: Cooking
       guid: ee3beec9aeba6a44ad28ff4307220ea3
@@ -778,8 +778,8 @@ MonoBehaviour:
       guid: e2ed22140cbaec42916035b660bbb910
     ParentPath: Switches\Music
     guid: e2ed22140cbaec42916035b660bbb910
-    GuidInternal:
-    m_lastTime: -8585346062715280355
+    GuidInternal: 
+    m_lastTime: -8585346153125383128
     List:
     - name: HealthStatus
       guid: 0c00d0309ac7c44e869b1f23a986dc21
@@ -842,12 +842,12 @@ MonoBehaviour:
       guid: 6d1235c092e49740a77264966087072b
     ParentPath: Triggers\Default Work Unit
     guid: 6d1235c092e49740a77264966087072b
-    GuidInternal:
-    m_lastTime: -8585348803203574760
+    GuidInternal: 
+    m_lastTime: -8585348788635949194
     List: []
-  ExpandedFileSystemItemIds:
-  ExpandedWaapiItemIds: 0500000006000000070000001c0000001d0000001e0000001f0000002000000022000000250000002600000028000000
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
-  CurrentPluginConfig:
+  CurrentPluginConfig: 
