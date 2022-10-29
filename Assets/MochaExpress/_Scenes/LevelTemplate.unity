@@ -183,6 +183,7 @@ MonoBehaviour:
   - {fileID: 752497289920282581, guid: a419927fba51199418d4a92cd69a8379, type: 3}
   - {fileID: 264100452735640569, guid: 4241e109928a6ac48b1512ec1921ace5, type: 3}
   - {fileID: 8653726320834339856, guid: bc34abeca44e9d247aa5240a8944d6f9, type: 3}
+  - {fileID: -144004563091365477, guid: 082396dd65cc0df40b42095692183d21, type: 3}
   towers:
   - {fileID: 531273609}
   - {fileID: 1353008295}

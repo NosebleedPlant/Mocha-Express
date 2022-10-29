@@ -34,9 +34,6 @@ public class Mgr_Cooking : MonoBehaviour
         foreach(Collider2D tower in towers){
             _towerBhvrs.Add(tower.GetComponentInParent<Bhvr_Tower>());
         }
-
-     //   AkSoundEngine.PostEvent("playItemPickup", gameObject);
-
     }
 
     private void Update()
@@ -125,7 +122,10 @@ public class Mgr_Cooking : MonoBehaviour
             {
                 _meal = SpawnMeal((int)recipie);
             }
-            else{CleanCookingArea();}
+            else{
+                //JTC FOOD FAILED SOUND HERE
+                _meal = SpawnMeal(mealPrefab.Count-1);
+                CleanCookingArea();}
         }
         _heldIngredient=null;
     }
