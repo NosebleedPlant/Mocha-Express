@@ -66,7 +66,7 @@ public class Bhvr_Tower : MonoBehaviour
         {
             if (_inRange.Count>0)
             {
-                Debug.DrawLine(transform.position,_inRange[0].position,Color.red);
+                Debug.DrawLine(_bulletSource.position,_inRange[0].position,Color.red);
             }
         }
 
@@ -80,8 +80,8 @@ public class Bhvr_Tower : MonoBehaviour
         {
             if(_inRange.Count>0 && ammoCount>0)
             {
-                Vector3 dir = _inRange[0].position - transform.position;
-                float angle = Vector3.SignedAngle(transform.up,dir,Vector3.back);
+                Vector3 dir = _inRange[0].position - _bulletSource.position;
+                float angle = Vector3.SignedAngle(_bulletSource.up,dir,Vector3.back);
                 GameObject spawnedBullet = Instantiate(
                     ammoPrefabs[(int)ammoType],_bulletSource.position,
                     Quaternion.AngleAxis(angle,Vector3.back));
