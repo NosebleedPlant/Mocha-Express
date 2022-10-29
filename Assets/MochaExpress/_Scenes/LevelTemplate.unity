@@ -1304,6 +1304,10 @@ PrefabInstance:
       value: 7.14
       objectReference: {fileID: 0}
     - target: {fileID: -2627538302567045008, guid: eb83f7dab48dd894b99684782b151809, type: 3}
+      propertyPath: _ammoType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -2627538302567045008, guid: eb83f7dab48dd894b99684782b151809, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}

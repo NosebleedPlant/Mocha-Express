@@ -28,6 +28,7 @@ namespace AK
         static const AkUniqueID PLAYMEOWDEEP = 921832693U;
         static const AkUniqueID PLAYMEOWNORMAL = 3249829222U;
         static const AkUniqueID PLAYPURR = 2928832990U;
+        static const AkUniqueID PLAYSCREECH = 2986083058U;
         static const AkUniqueID PLAYSHOOT = 1489638472U;
         static const AkUniqueID PLAYSTINGERFAILED = 2410273024U;
         static const AkUniqueID PLAYSTINGERSUCCESS = 3597360652U;
@@ -44,6 +45,7 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID ALIVE = 655265632U;
+                static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID UNALIVE = 1999921723U;
             } // namespace STATE
         } // namespace PLAYERLIFE

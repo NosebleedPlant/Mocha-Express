@@ -142,7 +142,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 61a7c9568e6180479510899e105c52ae
     GuidInternal: 
-    m_lastTime: -8585346062727630349
+    m_lastTime: -8585346050006380167
     List:
     - name: gameplayMusicStop
       guid: 20b9c819d3ee604eb0661d4dca5a69cf
@@ -365,6 +365,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: playScreech
+      guid: b61db06b71639642ae4bcd392508a229
+      id: 2986083058
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 61a7c9568e6180479510899e105c52ae
+      - ElementName: playScreech
+        ObjectType: 3
+        guid: b61db06b71639642ae4bcd392508a229
+      Path: Events\Default Work Unit\playScreech
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: playShoot
       guid: 8ced8e4c1e179246ad24f19baa2e8ab1
       id: 1489638472
@@ -537,7 +554,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: ef34a88aff8d914ab9ddc8231cdae592
     GuidInternal: 
-    m_lastTime: -8585346062715290358
+    m_lastTime: -8585346050006360178
     List:
     - name: PlayerLife
       guid: d777d13f99202c47bebeeee12f31ca18
@@ -570,6 +587,22 @@ MonoBehaviour:
         - ElementName: Alive
           ObjectType: 8
           guid: 09121c410353344cbcc4cd895a350d77
+      - name: None
+        guid: bdc8576c41a3b4438537307b3f0e0be0
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ef34a88aff8d914ab9ddc8231cdae592
+        - ElementName: PlayerLife
+          ObjectType: 9
+          guid: d777d13f99202c47bebeeee12f31ca18
+        - ElementName: None
+          ObjectType: 8
+          guid: bdc8576c41a3b4438537307b3f0e0be0
       - name: Unalive
         guid: c3db2392a6de4e46aec596fd0d194f24
         id: 1999921723
@@ -813,7 +846,7 @@ MonoBehaviour:
     m_lastTime: -8585348803203574760
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0500000006000000070000001c0000001d0000001e0000001f0000002000000022000000250000002600000028000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

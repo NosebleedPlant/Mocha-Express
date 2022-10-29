@@ -30,6 +30,7 @@
 				<StateGroup Id="444815956" Name="PlayerLife">
 					<States>
 						<State Id="655265632" Name="Alive"/>
+						<State Id="748895195" Name="None"/>
 						<State Id="1999921723" Name="Unalive"/>
 					</States>
 				</StateGroup>
@@ -58,7 +59,31 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{4552C4DB-5CC0-0966-6643-95AD6F28A2BB}">
+		<SoundBank Id="2986083058" Type="Event" Language="SFX" Hash="{58AE5093-9717-C282-B3B6-5892D4A78619}">
+			<ShortName>playScreech</ShortName>
+			<Path>Event/playScreech.bnk</Path>
+			<Media>
+				<File Id="414515898" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>screechJamar1.wav</ShortName>
+					<Path>Media/414515898.wem</Path>
+					<CachePath>SFX/screechJamar1_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="806927142" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>screechJamar2.wav</ShortName>
+					<Path>Media/806927142.wem</Path>
+					<CachePath>SFX/screechJamar2_3F75BDB9.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2986083058" Name="playScreech" DurationType="OneShot" DurationMin="1.1467632" DurationMax="1.8356749">
+					<MediaRefs>
+						<MediaRef Id="414515898"/>
+						<MediaRef Id="806927142"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{99760D8E-FC46-74D9-A6B9-6F728420300E}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -120,7 +145,7 @@
 				</File>
 				<File Id="838599348" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>foodReady.wav</ShortName>
-					<CachePath>SFX/foodReady_D7FD75D3.wem</CachePath>
+					<CachePath>SFX/foodReady_EADDB2D6.wem</CachePath>
 				</File>
 				<File Id="855061033" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>shootVenusianJane.wav</ShortName>
@@ -321,5 +346,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C81F809E-3E08-882F-C777-4A81E1762280}</FileHash>
+	<FileHash>{EA1D0722-FC8E-C170-BF21-6E0C0E26EB16}</FileHash>
 </SoundBanksInfo>

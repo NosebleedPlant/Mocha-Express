@@ -59,7 +59,31 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{04584947-C8CE-E77C-C06F-A56E482DB3D8}">
+		<SoundBank Id="2986083058" Type="Event" Language="SFX" Hash="{F28E6FC1-EE53-8FDE-1152-E8787C874704}">
+			<ShortName>playScreech</ShortName>
+			<Path>Event/playScreech.bnk</Path>
+			<Media>
+				<File Id="414515898" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>screechJamar1.wav</ShortName>
+					<Path>Media/414515898.wem</Path>
+					<CachePath>SFX/screechJamar1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="806927142" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>screechJamar2.wav</ShortName>
+					<Path>Media/806927142.wem</Path>
+					<CachePath>SFX/screechJamar2_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2986083058" Name="playScreech" DurationType="OneShot" DurationMin="1.1467632" DurationMax="1.8356749">
+					<MediaRefs>
+						<MediaRef Id="414515898"/>
+						<MediaRef Id="806927142"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{CC3635CA-B5CD-82DC-3B88-C174BCD467CA}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -322,5 +346,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{03039E10-CDD5-2029-006B-1BF582247019}</FileHash>
+	<FileHash>{605649D7-CE70-5B89-6BD9-642BB6000153}</FileHash>
 </SoundBanksInfo>
