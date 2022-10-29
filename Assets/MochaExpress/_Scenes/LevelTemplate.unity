@@ -178,7 +178,7 @@ MonoBehaviour:
   - {fileID: 2581996086962548112, guid: d54178596e9ff1849a2ef973bd1d4984, type: 3}
   - {fileID: 8506891761650294123, guid: e032cbdeb6edfb142b230ca0f97806c2, type: 3}
   - {fileID: 3448358529314711311, guid: c86f146a72cc9404495d6ab20c211177, type: 3}
-  - {fileID: 5202990538797013414, guid: bd65f2e79f0de5742b654341a9adc412, type: 3}
+  - {fileID: 8506891761650294123, guid: 756a7dfde5b0f9f45ad69c013d680d41, type: 3}
   mealPrefab:
   - {fileID: 752497289920282581, guid: a419927fba51199418d4a92cd69a8379, type: 3}
   - {fileID: 264100452735640569, guid: 4241e109928a6ac48b1512ec1921ace5, type: 3}
@@ -1362,6 +1362,10 @@ PrefabInstance:
     - target: {fileID: -8849998900706604735, guid: eb83f7dab48dd894b99684782b151809, type: 3}
       propertyPath: m_Radius
       value: 7.14
+      objectReference: {fileID: 0}
+    - target: {fileID: -2627538302567045008, guid: eb83f7dab48dd894b99684782b151809, type: 3}
+      propertyPath: _ammoType
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -2627538302567045008, guid: eb83f7dab48dd894b99684782b151809, type: 3}
       propertyPath: m_Enabled

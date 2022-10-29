@@ -86,6 +86,7 @@ public class Bhvr_Tower : MonoBehaviour
                     ammoPrefabs[(int)ammoType],_bulletSource.position,
                     Quaternion.AngleAxis(angle,Vector3.back));
                 ammoCount--;
+                AkSoundEngine.PostEvent("playShoot", gameObject);
             }
             yield return new WaitForSeconds(timeBetweenShots[(int)ammoType]);
         }
@@ -99,19 +100,23 @@ public class Bhvr_Tower : MonoBehaviour
                 Debug.Log("Tuna");
                 ammoType = Ammo.Tuna;
                 ammoCount = 2;
+                AkSoundEngine.SetSwitch("PlateAmmo", "Canned", gameObject);
                 break;
             case "Harvest":
                 Debug.Log("Harvest");
                 ammoType = Ammo.Harvest;
                 ammoCount = 2;
+                AkSoundEngine.SetSwitch("PlateAmmo", "Venusian", gameObject);
                 break;
             case "Mystery":
                 Debug.Log("Mystery");
                 ammoType = Ammo.Mystery;
                 ammoCount = 2;
+                AkSoundEngine.SetSwitch("PlateAmmo", "PlanetX", gameObject);
                 break;
             default:
                 break;
         }
+
     }
 }
