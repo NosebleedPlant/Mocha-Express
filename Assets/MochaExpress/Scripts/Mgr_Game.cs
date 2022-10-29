@@ -31,9 +31,6 @@ public class Mgr_Game : MonoBehaviour
     {
         //Links HealthCounter to Wwise PlayerHealth RTPC to switch between tracks
         var vr = Mathf.Floor(((float)HealthCounter/MaxHealth)*100);
-        Debug.Log(MaxHealth);
-        Debug.Log(HealthCounter);
-        Debug.Log(vr);
         AkSoundEngine.SetRTPCValue("PlayerHealth", vr);
 
 

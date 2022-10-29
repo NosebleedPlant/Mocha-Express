@@ -59,34 +59,14 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2986083058" Type="Event" Language="SFX" Hash="{F28E6FC1-EE53-8FDE-1152-E8787C874704}">
-			<ShortName>playScreech</ShortName>
-			<Path>Event/playScreech.bnk</Path>
-			<Media>
-				<File Id="414515898" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>screechJamar1.wav</ShortName>
-					<Path>Media/414515898.wem</Path>
-					<CachePath>SFX/screechJamar1_10C4C929.wem</CachePath>
-				</File>
-				<File Id="806927142" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>screechJamar2.wav</ShortName>
-					<Path>Media/806927142.wem</Path>
-					<CachePath>SFX/screechJamar2_10C4C929.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="2986083058" Name="playScreech" DurationType="OneShot" DurationMin="1.1467632" DurationMax="1.8356749">
-					<MediaRefs>
-						<MediaRef Id="414515898"/>
-						<MediaRef Id="806927142"/>
-					</MediaRefs>
-				</Event>
-			</Events>
-		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{CC3635CA-B5CD-82DC-3B88-C174BCD467CA}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6E160938-703B-C93D-97D8-6572EE09DDB7}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="27754056" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>foodBad.wav</ShortName>
+					<CachePath>SFX/foodBad_6FF09136.wem</CachePath>
+				</File>
 				<File Id="167051102" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>itemPlace.wav</ShortName>
 					<CachePath>SFX/itemPlace_9CD4CC67.wem</CachePath>
@@ -110,6 +90,10 @@
 				<File Id="325764874" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>purrLoopJamar.wav</ShortName>
 					<CachePath>SFX/purrLoopJamar_84491C37.wem</CachePath>
+				</File>
+				<File Id="414515898" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>screechJamar1.wav</ShortName>
+					<CachePath>SFX/screechJamar1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="415549626" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>deepMeowJamar1.wav</ShortName>
@@ -142,6 +126,10 @@
 				<File Id="804147299" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>lowHealth.wav</ShortName>
 					<CachePath>SFX/lowHealth_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="806927142" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>screechJamar2.wav</ShortName>
+					<CachePath>SFX/screechJamar2_10C4C929.wem</CachePath>
 				</File>
 				<File Id="838599348" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>foodReady.wav</ShortName>
@@ -200,6 +188,11 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="175776156" Name="playFoodBad" DurationType="OneShot" DurationMin="1.2470059" DurationMax="1.2470059">
+					<MediaRefs>
+						<MediaRef Id="27754056"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3266981704" Name="playFoodReady" DurationType="OneShot" DurationMin="0.8329333" DurationMax="0.8329333">
 					<MediaRefs>
 						<MediaRef Id="838599348"/>
@@ -242,6 +235,12 @@
 				<Event Id="2928832990" Name="playPurr" DurationType="OneShot" DurationMin="1.0419828" DurationMax="1.545062">
 					<MediaRefs>
 						<MediaRef Id="325764874"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2986083058" Name="playScreech" DurationType="OneShot" DurationMin="1.1467632" DurationMax="1.8356749">
+					<MediaRefs>
+						<MediaRef Id="414515898"/>
+						<MediaRef Id="806927142"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1489638472" Name="playShoot" DurationType="OneShot" DurationMin="1" DurationMax="2">
@@ -346,5 +345,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A953BB72-FF4B-2B74-2AD8-9B4C4FC51594}</FileHash>
+	<FileHash>{C7A26BE7-8A1E-452E-7F71-4055F5035397}</FileHash>
 </SoundBanksInfo>

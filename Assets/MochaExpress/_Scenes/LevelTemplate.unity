@@ -395,7 +395,7 @@ Transform:
   - {fileID: 1547544675}
   - {fileID: 1512666848}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1353008295 stripped
 BoxCollider2D:
@@ -480,7 +480,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1412006843
 MonoBehaviour:
@@ -885,7 +885,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2028039530
 PrefabInstance:
@@ -900,11 +900,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3954209657946067924, guid: 2f897357f4c438c4eb307394088e6898, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.9719317
+      value: 0.109
       objectReference: {fileID: 0}
     - target: {fileID: 3954209657946067924, guid: 2f897357f4c438c4eb307394088e6898, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.6110816
+      value: 1.081
       objectReference: {fileID: 0}
     - target: {fileID: 3954209657946067924, guid: 2f897357f4c438c4eb307394088e6898, type: 3}
       propertyPath: m_LocalPosition.z

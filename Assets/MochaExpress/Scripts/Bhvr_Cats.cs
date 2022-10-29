@@ -94,7 +94,7 @@ public class Bhvr_Cats : MonoBehaviour
             }
             else if(other.tag == "WorkArea")
             {
-                //JTC Cat attacks
+            Debug.Log("high");
                 AkSoundEngine.PostEvent("playScreech", gameObject);
                 speed = 0;
                 _isAttacking=true;

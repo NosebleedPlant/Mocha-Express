@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	175776156	playFoodBad			\Default Work Unit\playFoodBad	
 	921832693	playMeowDeep			\Default Work Unit\playMeowDeep	
 	1024214430	playMenuSelect			\Default Work Unit\playMenuSelect	
 	1262020357	playCooking			\Default Work Unit\playCooking	
@@ -6,6 +7,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1489638472	playShoot			\Default Work Unit\playShoot	
 	2410273024	playStingerFailed			\Default Work Unit\playStingerFailed	
 	2928832990	playPurr			\Default Work Unit\playPurr	
+	2986083058	playScreech			\Default Work Unit\playScreech	
 	3246529682	mapLoaded			\Default Work Unit\mapLoaded	
 	3249829222	playMeowNormal			\Default Work Unit\playMeowNormal	
 	3266981704	playFoodReady			\Default Work Unit\playFoodReady	
@@ -42,12 +44,14 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	151362964	PlayerHealth			\Default Work Unit\PlayerHealth	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	27754056	foodBad	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\foodBad_6FF09136.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\foodBad		239520
 	167051102	itemPlace	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\itemPlace_9CD4CC67.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\itemPlace		46352
 	184347556	fryFood	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\fryFood_0F86FFA9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\Cooking\fryFood		599468
 	224669720	deepMeowJamar2	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\deepMeowJamar2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowDeep\deepMeowJamar2		272904
 	229868693	shootCannedTuna	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\shootCannedTuna_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Towers\Shoot\shootCannedTuna		192096
 	284279740	sadHighMeowYalmaz	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\sadHighMeowYalmaz_6F707001.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowNormal\sadHighMeowYalmaz		172584
 	325764874	purrLoopJamar	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\purrLoopJamar_84491C37.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\purrLoopJamar		228188
+	414515898	screechJamar1	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\screechJamar1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\Screech\screechJamar1		262388
 	415549626	deepMeowJamar1	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\deepMeowJamar1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowDeep\deepMeowJamar1		228324
 	423263521	stingerSuccess	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\stingerSuccess_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Stingers\stingerSuccess		576096
 	499174852	sadMeowYalmaz	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\sadMeowYalmaz_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowNormal\sadMeowYalmaz		201588
@@ -56,6 +60,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	552031213	itemPickup	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\itemPickup_6A359C41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\itemPickup		60652
 	573760164	menuClick	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\menuClick_2DEE817E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Menu\menuClick		21560
 	804147299	lowHealth	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\lowHealth_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\WorkArea\lowHealth		768096
+	806927142	screechJamar2	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\screechJamar2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\Screech\screechJamar2		332572
 	838599348	foodReady	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\foodReady_85619206.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\foodReady		160020
 	855061033	shootVenusianJane	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\shootVenusianJane_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Towers\Shoot\shootVenusianJane		384096
 	883824443	stingerFailed	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Windows\SFX\stingerFailed_ACAA5B7D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Stingers\stingerFailed		670204
