@@ -76,7 +76,11 @@ public class Mgr_Cooking : MonoBehaviour
             }
             else if(_meal!=null)
             {
-                TryLoadAmmo(mousePos);
+                if(TryLoadAmmo(mousePos)==false)
+                {
+                    GameObject.Destroy(_meal.gameObject);
+                    _meal=null;
+                }
             }
         }
     }
@@ -150,7 +154,7 @@ public class Mgr_Cooking : MonoBehaviour
         spawnpos.z = _heldIngredient.position.z;
 
         CleanCookingArea();
-
+        //JTC Food Completeion sound here!
         return Instantiate<Collider2D>(mealPrefab[recipie],spawnpos,Quaternion.identity);
     }
 
@@ -162,7 +166,7 @@ public class Mgr_Cooking : MonoBehaviour
         _usedIngredients.Clear();
     }
 
-    private void TryLoadAmmo(Vector3 mousePos)
+    private bool TryLoadAmmo(Vector3 mousePos)
     {
         for(int i = 0; i<towers.Count; i++)
         {
@@ -174,8 +178,10 @@ public class Mgr_Cooking : MonoBehaviour
                 //clean up meal
                 GameObject.Destroy(_meal.gameObject);
                 _meal=null;
+                return true;
             }
         }
+        return false;
     }
 
 }
