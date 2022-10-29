@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 7471b55ddd420c47bb5f521c9ffa2130
     GuidInternal: 
-    m_lastTime: -8585348803203544762
+    m_lastTime: -8585347730326553772
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: eee5af196b045441955801f646d5b008
     GuidInternal: 
-    m_lastTime: -8585346062720870355
+    m_lastTime: -8585346009518605022
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: ccef9e29bc609242a30cc1984562c6c6
     GuidInternal: 
-    m_lastTime: -8585345949270399225
+    m_lastTime: -8585345941240325454
     List:
     - name: Main
       guid: b4281d4ed1a3d64ab915b8b27631991f
@@ -142,7 +142,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 61a7c9568e6180479510899e105c52ae
     GuidInternal: 
-    m_lastTime: -8585345998933006857
+    m_lastTime: -8585345992279519494
     List:
     - name: gameplayMusicStop
       guid: 20b9c819d3ee604eb0661d4dca5a69cf
@@ -495,7 +495,7 @@ MonoBehaviour:
     ParentPath: Events\Music
     guid: 29fd798683b14f41b0b117d4c5b660b4
     GuidInternal: 
-    m_lastTime: -8585346062727620348
+    m_lastTime: -8585346009523616626
     List:
     - name: gameplayMusic
       guid: 021fcad8d94901489b8ea3f52a454ad6
@@ -543,7 +543,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: b41b6e59645d5147966d11a6e5a57e86
     GuidInternal: 
-    m_lastTime: -8585346062727620348
+    m_lastTime: -8585346009523611624
     List:
     - name: PlayerHealth
       guid: e55c446bf844fd42af2f32de44f94832
@@ -571,7 +571,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: ef34a88aff8d914ab9ddc8231cdae592
     GuidInternal: 
-    m_lastTime: -8585346013260243467
+    m_lastTime: -8585346009260900617
     List:
     - name: PlayerLife
       guid: d777d13f99202c47bebeeee12f31ca18
@@ -651,7 +651,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: c963af901a600e479305e12b796fc6a3
     GuidInternal: 
-    m_lastTime: -8585346062715280355
+    m_lastTime: -8585346009513850022
     List:
     - name: Cooking
       guid: ee3beec9aeba6a44ad28ff4307220ea3
@@ -796,7 +796,7 @@ MonoBehaviour:
     ParentPath: Switches\Music
     guid: e2ed22140cbaec42916035b660bbb910
     GuidInternal: 
-    m_lastTime: -8585346062715280355
+    m_lastTime: -8585346009513845018
     List:
     - name: HealthStatus
       guid: 0c00d0309ac7c44e869b1f23a986dc21
@@ -860,7 +860,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 6d1235c092e49740a77264966087072b
     GuidInternal: 
-    m_lastTime: -8585348803203574760
+    m_lastTime: -8585347730326558771
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 

@@ -99,19 +99,19 @@ public class Bhvr_Tower : MonoBehaviour
             case "Special Tuna":
                 Debug.Log("Tuna");
                 ammoType = Ammo.Tuna;
-                ammoCount = 2;
+                ammoCount = 4;
                 AkSoundEngine.SetSwitch("PlateAmmo", "Canned", gameObject);
                 break;
             case "Harvest":
                 Debug.Log("Harvest");
                 ammoType = Ammo.Harvest;
-                ammoCount = 2;
+                ammoCount = 10;
                 AkSoundEngine.SetSwitch("PlateAmmo", "Venusian", gameObject);
                 break;
             case "Mystery":
                 Debug.Log("Mystery");
                 ammoType = Ammo.Mystery;
-                ammoCount = 2;
+                ammoCount = 20;
                 AkSoundEngine.SetSwitch("PlateAmmo", "PlanetX", gameObject);
                 break;
             default:

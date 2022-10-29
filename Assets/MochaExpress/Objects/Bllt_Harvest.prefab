@@ -99,8 +99,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  _timeBetweenShots: 1.5
-  _damage: 1
+  _timeBetweenShots: 0.8
+  _damage: 20
 --- !u!58 &-4977533131746548906
 CircleCollider2D:
   m_ObjectHideFlags: 0
