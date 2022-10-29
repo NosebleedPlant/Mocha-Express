@@ -245,6 +245,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="playFoodBad" ID="{4A828C6F-1FCA-4AB8-8A15-4800D0D9F86C}">
+					<ChildrenList>
+						<Action Name="" ID="{196E49B7-28B9-48C7-B1FA-03018DED075A}" ShortID="2300594">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="foodBad" ID="{D42564EE-BB93-44F1-BA27-994E5C81B770}" WorkUnitID="{136370ED-D333-41B8-93A9-5520B6302CC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

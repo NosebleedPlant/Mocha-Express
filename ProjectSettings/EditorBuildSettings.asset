@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Developers/Yalmaz/TestingGround.unity
     guid: e1af58c52808aaa4b9b3580ffed24c18
+  - enabled: 1
+    path: Assets/MochaExpress/_Scenes/LevelTemplate.unity
+    guid: ec7b62777fa0444408e5e4830e58deb0
   m_configObjects: {}

@@ -18,6 +18,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="playFoodBad" ID="{4A828C6F-1FCA-4AB8-8A15-4800D0D9F86C}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="playItemPlace" ID="{854F9D7D-5ED8-4D13-96E3-D377579F3176}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -30,8 +34,12 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="gameplayMusicStop" ID="{19C8B920-EED3-4E60-B066-1D4DCA5A69CF}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<ObjectRef Name="playFoodReady" ID="{C522646B-5D95-4EEC-9F64-43A558AF5BF7}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
 							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="gameplayMusicStop" ID="{19C8B920-EED3-4E60-B066-1D4DCA5A69CF}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>
+							<Position X="1" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="playShoot" ID="{4C8EED8C-171E-4692-AD24-F19BAA2E8AB1}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}"/>

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>  
+/// <summary>
 /// author: Yalmaz Abdullah
 /// description: This class defines the behaviour of cat enemies in the game.
 /// </summary>
@@ -19,7 +19,7 @@ public class Bhvr_Cats : MonoBehaviour
         private float timeBetweenAttacks = 0;
         [SerializeField, Tooltip("Target that Cat is moving towards")]
         private Transform _targetTransform;
-        
+
         [SerializeField, Tooltip("")]
         private Collider2D _workArea;
         [SerializeField, Tooltip("")]
@@ -32,21 +32,21 @@ public class Bhvr_Cats : MonoBehaviour
     #endregion
 
     #region //////Properties//////
-        public Transform targetTransform 
+        public Transform targetTransform
         {
             get => _targetTransform;
             set
             {_targetTransform = value;}
         }
 
-        public Mgr_Game gameManager 
+        public Mgr_Game gameManager
         {
             get => _gameManager;
             set
             {_gameManager = value;}
         }
 
-        public Collider2D workArea 
+        public Collider2D workArea
         {
             get => _workArea;
             set
@@ -55,7 +55,7 @@ public class Bhvr_Cats : MonoBehaviour
     #endregion
 
     #region //////LifeCycle//////
-        private void Awake() 
+        private void Awake()
         {
             _rBdy = GetComponent<Rigidbody2D>();
         }
@@ -73,7 +73,7 @@ public class Bhvr_Cats : MonoBehaviour
             AkSoundEngine.PostEvent("playPurr", gameObject);
                 GameObject.Destroy(transform.gameObject);
             }
-            else if(_isAttacking) 
+            else if(_isAttacking)
             {
                 _attackTimer-=Time.deltaTime;
                 Debug.Log(_attackTimer);

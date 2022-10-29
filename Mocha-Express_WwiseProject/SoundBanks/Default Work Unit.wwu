@@ -14,6 +14,7 @@
 						<ObjectRef Name="playStingerSuccess" ID="{CE19A425-AE7F-497E-B4FD-E67FA353229E}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playMeowDeep" ID="{FDC947BF-8125-49F9-8BA1-FE0E6E64AE2A}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playStingerFailed" ID="{F86F01C7-2F6B-4A5D-9965-970CA3B24E2D}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="playFoodBad" ID="{4A828C6F-1FCA-4AB8-8A15-4800D0D9F86C}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playMenuClick" ID="{A1515AED-D217-4B45-8B09-50EAA2AEEDB6}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playCooking" ID="{DEEE6127-11E1-4B73-8CBF-3B2D697CADC1}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playItemPlace" ID="{854F9D7D-5ED8-4D13-96E3-D377579F3176}" WorkUnitID="{56C9A761-618E-4780-9510-899E105C52AE}" Origin="Manual" Filter="7"/>

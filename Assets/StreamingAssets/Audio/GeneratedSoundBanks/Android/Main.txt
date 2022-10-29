@@ -1,5 +1,4 @@
 Event	ID	Name			Wwise Object Path	Notes
-	175776156	playFoodBad			\Default Work Unit\playFoodBad	
 	921832693	playMeowDeep			\Default Work Unit\playMeowDeep	
 	1024214430	playMenuSelect			\Default Work Unit\playMenuSelect	
 	1262020357	playCooking			\Default Work Unit\playCooking	
@@ -43,7 +42,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	151362964	PlayerHealth			\Default Work Unit\PlayerHealth	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	27754056	foodBad	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\foodBad_AC6B75E8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\foodBad		19533
 	167051102	itemPlace	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\itemPlace_A958A837.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\itemPlace		1924
 	184347556	fryFood	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\fryFood_F2473D39.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Food\Cooking\fryFood		37107
 	224669720	deepMeowJamar2	N:\Gamejam\IGDA Jam\Mocha-Express\Mocha-Express_WwiseProject\.cache\Android\SFX\deepMeowJamar2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Cats\meowDeep\deepMeowJamar2		16555

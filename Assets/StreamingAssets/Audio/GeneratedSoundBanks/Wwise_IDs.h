@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID MUSICMUTE = 153626945U;
         static const AkUniqueID MUSICUNMUTE = 2098179344U;
         static const AkUniqueID PLAYCOOKING = 1262020357U;
+        static const AkUniqueID PLAYFOODBAD = 175776156U;
         static const AkUniqueID PLAYFOODREADY = 3266981704U;
         static const AkUniqueID PLAYITEMPICKUP = 4016420606U;
         static const AkUniqueID PLAYITEMPLACE = 3776118347U;
