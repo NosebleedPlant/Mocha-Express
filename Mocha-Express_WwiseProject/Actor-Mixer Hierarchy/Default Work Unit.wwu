@@ -915,6 +915,46 @@
 										<ActiveSource Name="itemPlace" ID="{21D33555-8878-4E98-BA85-DBD4E66F63AE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="foodBad" ID="{D42564EE-BB93-44F1-BA27-994E5C81B770}" ShortID="83028396">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BADE4A1-707F-4B06-83D0-E39C535002DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{19AFE5EE-046B-4154-9558-01F646D5B008}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="foodBad" ID="{30CBAD75-7E9F-4FAC-95AC-78800E2D91D2}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.483532934131737"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.216317365269461"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.46332335329341"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-0.6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>foodBad.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="27754056"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="foodBad" ID="{30CBAD75-7E9F-4FAC-95AC-78800E2D91D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="WorkArea" ID="{3FA54C4D-4868-4EF3-947A-D95A199C0846}" ShortID="666475812">

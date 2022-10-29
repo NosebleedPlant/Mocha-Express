@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: ccef9e29bc609242a30cc1984562c6c6
     GuidInternal: 
-    m_lastTime: -8585346091306032623
+    m_lastTime: -8585346001265915255
     List:
     - name: Main
       guid: b4281d4ed1a3d64ab915b8b27631991f
@@ -142,7 +142,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 61a7c9568e6180479510899e105c52ae
     GuidInternal: 
-    m_lastTime: -8585346050006380167
+    m_lastTime: -8585346001371932505
     List:
     - name: gameplayMusicStop
       guid: 20b9c819d3ee604eb0661d4dca5a69cf
@@ -226,6 +226,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 2761eedee111734b8cbf3b2d697cadc1
       Path: Events\Default Work Unit\playCooking
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: playFoodBad
+      guid: 6f8c824aca1fb84a8a154800d0d9f86c
+      id: 175776156
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 61a7c9568e6180479510899e105c52ae
+      - ElementName: playFoodBad
+        ObjectType: 3
+        guid: 6f8c824aca1fb84a8a154800d0d9f86c
+      Path: Events\Default Work Unit\playFoodBad
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

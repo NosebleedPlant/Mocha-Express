@@ -83,14 +83,10 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{7D4B59D1-B234-DCEE-3035-D1EE0776DADF}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{99760D8E-FC46-74D9-A6B9-6F728420300E}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
-				<File Id="27754056" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>foodBad.wav</ShortName>
-					<CachePath>SFX/foodBad_AC6B75E8.wem</CachePath>
-				</File>
 				<File Id="167051102" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>itemPlace.wav</ShortName>
 					<CachePath>SFX/itemPlace_A958A837.wem</CachePath>
@@ -203,11 +199,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
-				</Event>
-				<Event Id="175776156" Name="playFoodBad" DurationType="OneShot" DurationMin="1.2470059" DurationMax="1.2470059">
-					<MediaRefs>
-						<MediaRef Id="27754056"/>
-					</MediaRefs>
 				</Event>
 				<Event Id="3266981704" Name="playFoodReady" DurationType="OneShot" DurationMin="0.8329333" DurationMax="0.8329333">
 					<MediaRefs>
@@ -355,5 +346,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FC2F2164-F991-F593-29D7-E7FB417E9664}</FileHash>
+	<FileHash>{EA1D0722-FC8E-C170-BF21-6E0C0E26EB16}</FileHash>
 </SoundBanksInfo>
