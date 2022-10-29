@@ -154,10 +154,10 @@ public class Mgr_Cooking : MonoBehaviour
         spawnpos.z = _heldIngredient.position.z;
 
         CleanCookingArea();
-        // if(recipie!=mealPrefab.Count-1)
+        if(recipie!=mealPrefab.Count-1)
             AkSoundEngine.PostEvent("playFoodReady", gameObject);
-        // else
-        //     AkSoundEngine.PostEvent("foodBad", gameObject);
+        else
+            AkSoundEngine.PostEvent("playFoodBad", gameObject);
         return Instantiate<Collider2D>(mealPrefab[recipie],spawnpos,Quaternion.identity);
     }
 
