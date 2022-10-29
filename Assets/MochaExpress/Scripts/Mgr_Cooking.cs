@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Linq;
+using System;
 
 public class Mgr_Cooking : MonoBehaviour
 {
@@ -140,7 +140,7 @@ public class Mgr_Cooking : MonoBehaviour
         
         for(int i = 0; i<RECIPIES.Count; i++)
         {
-            if(Enumerable.SequenceEqual(current, RECIPIES[i]))
+            if(isValid(current,RECIPIES[i]))
             {
                 return i;
             }
@@ -182,6 +182,15 @@ public class Mgr_Cooking : MonoBehaviour
             }
         }
         return false;
+    }
+
+    private bool isValid(string[] current,string[] recipie)
+    {
+        bool result = false;
+        result = Array.Exists(recipie, element => element == current[0])&&
+        Array.Exists(recipie, element => element == current[1])&&
+        Array.Exists(recipie, element => element == current[2]);
+        return result;
     }
 
 }
