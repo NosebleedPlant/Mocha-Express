@@ -70,6 +70,7 @@ public class Bhvr_Cats : MonoBehaviour
         {
             if(health<=0)
             {
+            AkSoundEngine.PostEvent("playPurr", gameObject);
                 GameObject.Destroy(transform.gameObject);
             }
             else if(_isAttacking) 
@@ -88,13 +89,16 @@ public class Bhvr_Cats : MonoBehaviour
         {
             if(other.tag == "Bullet" && health>0){
                 health-= other.GetComponent<Bhvr_Bullet>().damage;
+                //AkSoundEngine.PostEvent("playPurr", gameObject);
                 GameObject.Destroy(other.gameObject);
                 //JTC Cat gets hit
+
             }
             else if(other.tag == "WorkArea")
             {
-                //JTC Cat attacks
-                speed = 0;
+            //JTC Cat attacks
+            AkSoundEngine.PostEvent("playScreech", gameObject);
+            speed = 0;
                 _isAttacking=true;
                 _attackTimer= timeBetweenAttacks;
             }

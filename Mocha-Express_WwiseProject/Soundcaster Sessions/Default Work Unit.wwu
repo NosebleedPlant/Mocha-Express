@@ -80,7 +80,7 @@
 						<CurrentStateRef Name="Alive" ID="{411C1209-5303-4C34-BCC4-CD895A350D77}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Mix" ID="{2F5706FE-0B42-4292-9557-17F6A6D9846E}"/>
+						<CurrentSwitchRef Name="Boil" ID="{FCC1FCE0-5B1B-4CD3-B187-F060C6DEB093}"/>
 						<CurrentSwitchRef Name="Canned" ID="{F9993C4E-A12E-4705-9C93-822A4E42E583}"/>
 						<CurrentSwitchRef Name="Healthy" ID="{8007D4B2-B9EA-4F8A-86A2-0C1057DEC87C}"/>
 					</CurrentSwitchList>
